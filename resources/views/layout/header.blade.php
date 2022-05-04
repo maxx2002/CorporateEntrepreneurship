@@ -10,7 +10,7 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-dark fs-5" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Vacancy</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item text-dark fs-5" href="#">Job Vacancy</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/jobvacancy">Job Vacancy</a></li>
         <li><a class="dropdown-item text-dark fs-5" href="#">Scholarship Vacancy</a></li>
       </ul>
     </li>

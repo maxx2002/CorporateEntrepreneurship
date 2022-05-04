@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LowonganController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,3 +37,5 @@ Route::get('/blog', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/jobvacancy', [LowonganController::class, 'index']);

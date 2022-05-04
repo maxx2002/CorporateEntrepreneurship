@@ -45,3 +45,13 @@ h2, a {
 .containerr {
     width: 65%;
 }
+
+.filterDiv{
+    display: none;
+}
+.showfilter{
+    display: block;
+}
+.btn.active{
+    border: solid black 2px;
+}
