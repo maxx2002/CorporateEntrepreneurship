@@ -33,7 +33,7 @@
       <ul class="dropdown-menu">
         <li><a class="dropdown-item text-dark fs-5" href="/about">Corporate Entrepreneurship</a></li>
         <li><a class="dropdown-item text-dark fs-5" href="#">Gallery</a></li>
-        <li><a class="dropdown-item text-dark fs-5" href="#">Blog</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/blog">Blog</a></li>
       </ul>
     </li>
 </ul>

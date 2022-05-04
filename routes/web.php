@@ -28,3 +28,11 @@ Route::get('/sponsor', function () {
 Route::get('/mediapartner', function () {
     return view('mediapartner');
 });
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
