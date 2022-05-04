@@ -31,7 +31,7 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-dark fs-5" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About Us</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item text-dark fs-5" href="#">Corporate Entrepreneurship</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/about">Corporate Entrepreneurship</a></li>
         <li><a class="dropdown-item text-dark fs-5" href="#">Gallery</a></li>
         <li><a class="dropdown-item text-dark fs-5" href="#">Blog</a></li>
       </ul>
