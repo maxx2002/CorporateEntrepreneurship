@@ -5,7 +5,7 @@
 </div>
 <ul class="nav justify-content-center">
     <li class="nav-item">
-      <a class="nav-link text-dark fs-5" aria-current="page" href="#">Home</a>
+      <a class="nav-link text-dark fs-5" aria-current="page" href="/">Home</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-dark fs-5" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Vacancy</a>
@@ -24,8 +24,8 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-dark fs-5" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Collaborations</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item text-dark fs-5" href="#">Sponsors</a></li>
-        <li><a class="dropdown-item text-dark fs-5" href="#">Media Partners</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/sponsor">Sponsors</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/mediapartner">Media Partners</a></li>
       </ul>
     </li>
     <li class="nav-item dropdown">

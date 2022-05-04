@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/sponsor', function () {
+    return view('sponsor');
+});
+
+Route::get('/mediapartner', function () {
+    return view('mediapartner');
+});

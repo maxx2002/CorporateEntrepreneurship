@@ -3,7 +3,7 @@
 @section('title', 'About Us - UC Virtual Career Expo')
 
 @section('content')
-<h1 class="text-center mt-5">About Us</h1>
+<h1 class="text-center mt-5">ABOUT US</h1>
 <div class="d-flex justify-content-center mt-5">
     <div class="mb-3" style="max-width: 60%;">
         <div class="row g-3">
