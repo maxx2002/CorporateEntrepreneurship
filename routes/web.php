@@ -30,12 +30,28 @@ Route::get('/mediapartner', function () {
     return view('mediapartner');
 });
 
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
 Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/gallery', function () {
-    return view('gallery');
+Route::get('/blog/1', function () {
+    return view('blogs/interview');
+});
+
+Route::get('/blog/2', function () {
+    return view('blogs/magang');
+});
+
+Route::get('/blog/3', function () {
+    return view('blogs/cv');
+});
+
+Route::get('/blog/4', function () {
+    return view('blogs/keterampilan');
 });
 
 Route::get('/jobvacancy', [LowonganController::class, 'index']);

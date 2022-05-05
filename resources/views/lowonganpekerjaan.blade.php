@@ -1,6 +1,6 @@
 @extends('layout.main')
 
-@section('title', 'Sponsors - UC Virtual Career Expo')
+@section('title', 'Job Vacancy - UC Virtual Career Expo')
 
 @section('content')
 <h1 class="text-center my-5">JOB VACANCY</h1>
