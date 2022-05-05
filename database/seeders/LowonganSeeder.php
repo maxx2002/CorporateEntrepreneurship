@@ -15,14 +15,14 @@ class LowonganSeeder extends Seeder
     public function run()
     {
         DB::table('lowongan')->insert([
-            'perusahaan_id' => 1,
+            'perusahaan_id' => 'blesscon',
             'nama_lowongan' => 'Admin Marketing',
             'jurusan_dibutuhkan' => 'S1 segala jurusan (diutamakan S1 Manajemen)',
             'bentuk_pekerjaan' => 'Full-time',
             'requirement' => '- Wanita, maks. 30 tahun<br />- Bertanggung jawab, disiplin, jujur, teliti, komunikatif<br />- Pengalaman di bidang Admin merupakan nilai tambah<br />- Fleksibel dalam hal waktu<br />- Penempatan di Surabaya (Head Office)',
         ]);
         DB::table('lowongan')->insert([
-            'perusahaan_id' => 2,
+            'perusahaan_id' => 'indomaret',
             'nama_lowongan' => 'Mobile Apps Developer',
             'jurusan_dibutuhkan' => "Bachelor's Degree in Information Technology, Informatics Engineering, Computer Science, or any related field. Intern are welcome.",
             'bentuk_pekerjaan' => 'Full-time',
@@ -30,7 +30,7 @@ class LowonganSeeder extends Seeder
             'requirement' => '- Required skill(s) : ReactNative / ReactJS / NodeJS / Java / Javascript / JSON / XML /<br />Android Studio<br />- Have experience in Flutter / Kotlin / Xcode / Swift / develop iOS is a plus<br />- Strong knowledge of Android SDK, different versions of Android<br />- Familiar with RESTful APIs to connect to back-end services',
         ]);
         DB::table('lowongan')->insert([
-            'perusahaan_id' => 1,
+            'perusahaan_id' => 'blesscon',
             'nama_lowongan' => 'Management Trainee Maintenance/ Produksi/ QA',
             'jurusan_dibutuhkan' => "Maintenance (Teknik Mesin/ Elektro) , Produksi (Semua Teknik),QA (Teknik Kimia/Bioteknologi/Teknik lainnya)",
             'bentuk_pekerjaan' => 'Full-time',

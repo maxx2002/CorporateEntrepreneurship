@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateLowonganTable extends Migration
+class CreateBeasiswaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,11 @@ class CreateLowonganTable extends Migration
      */
     public function up()
     {
-        Schema::create('lowongan', function (Blueprint $table) {
+        Schema::create('beasiswa', function (Blueprint $table) {
             $table->id();
             $table->string('perusahaan_id');
-            $table->text('nama_lowongan');
+            $table->string('nama_beasiswa');
             $table->text('jurusan_dibutuhkan');
-            $table->string('bentuk_pekerjaan');
-            $table->text('job_desk')->nullable();
             $table->text('requirement')->nullable();
             $table->timestamps();
         });
@@ -32,6 +30,6 @@ class CreateLowonganTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('lowongan');
+        Schema::dropIfExists('beasiswa');
     }
 }

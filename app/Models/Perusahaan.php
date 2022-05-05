@@ -10,6 +10,8 @@ class Perusahaan extends Model
     use HasFactory;
 
     protected $table = 'perusahaan';
+    protected $primaryKey = "id_perusahaan";
+    protected $keyType = "string";
 
     protected $fillable = [
         'nama_perusahaan',
@@ -20,6 +22,6 @@ class Perusahaan extends Model
     ];
 
     public function lowongan(){
-        return $this->hasMany(Lowongan::class, 'perusahaan_id', 'id');
+        return $this->hasMany(Lowongan::class, 'perusahaan_id', 'id_perusahaan');
     }
 }

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LowonganController;
+use App\Http\Controllers\PerusahaanController;
+use App\Http\Controllers\BeasiswaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -71,3 +73,8 @@ Route::get('/blog/4', function () {
 });
 
 Route::get('/jobvacancy', [LowonganController::class, 'index']);
+
+Route::get('/companylist', [PerusahaanController::class, 'index']);
+Route::get('/companylist/{id}', [PerusahaanController::class, 'company']);
+
+Route::get('/scholarship', [BeasiswaController::class, 'index']);

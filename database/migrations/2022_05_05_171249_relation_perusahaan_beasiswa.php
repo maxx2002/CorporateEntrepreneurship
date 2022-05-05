@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class RelationPerusahaanLowongan extends Migration
+class RelationPerusahaanBeasiswa extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class RelationPerusahaanLowongan extends Migration
      */
     public function up()
     {
-        Schema::table('lowongan', function (Blueprint $table){
+        Schema::table('beasiswa', function(Blueprint $table){
             $table->foreign('perusahaan_id')
-            ->references('id_perusahaan')->on('perusahaan')
+            ->references("id_perusahaan")->on('perusahaan')
             ->onDelete('cascade')
             ->onUpdate('cascade');
         });

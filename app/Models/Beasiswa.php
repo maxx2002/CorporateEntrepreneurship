@@ -5,18 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Lowongan extends Model
+class Beasiswa extends Model
 {
     use HasFactory;
 
-    protected $table = 'lowongan';
-
+    protected $table = 'beasiswa';
+    
     protected $fillable = [
         'perusahaan_id',
-        'nama_lowongan',
+        'nama_beasiswa',
         'jurusan_dibutuhkan',
-        'bentuk_pekerjaan',
-        'job_desk',
         'requirement',
     ];
 

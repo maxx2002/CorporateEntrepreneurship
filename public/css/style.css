@@ -56,3 +56,15 @@ h2, a {
 .btn.active{
     border: solid black 2px;
 }
+.zoom:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hoverableborder:hover{
+    border: 1pt solid black;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
