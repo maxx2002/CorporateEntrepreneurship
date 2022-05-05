@@ -6,8 +6,8 @@
 <div class="jumbotron">
     <img src="img/logobesar.svg" alt="" class="logohome">
     <div class="mt-5">
-        <a href="#" class="btn px-3" style="background-color: #FF6E00">Proposal Kegiatan</a>
-        <a href="#" class="btn px-3 ms-2" style="background-color: #FF6E00">Proposal Sponsorship</a>
+        <a href="#" download class="btn px-3" style="background-color: #FF6E00">Proposal Kegiatan</a>
+        <a href="#" download class="btn px-3 ms-2" style="background-color: #FF6E00">Proposal Sponsorship</a>
     </div>
 </div>
 <div class="d-flex justify-content-center mt-5">

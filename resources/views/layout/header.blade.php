@@ -17,8 +17,8 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-dark fs-5" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Events</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item text-dark fs-5" href="#">Virtual Career Expo 2.0</a></li>
-        <li><a class="dropdown-item text-dark fs-5" href="#">Webinar</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/careerexpo">Virtual Career Expo 2.0</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/webinar">Webinar</a></li>
       </ul>
     </li>
     <li class="nav-item dropdown">
@@ -32,7 +32,7 @@
       <a class="nav-link dropdown-toggle text-dark fs-5" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About Us</a>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item text-dark fs-5" href="/about">Corporate Entrepreneurship</a></li>
-        <li><a class="dropdown-item text-dark fs-5" href="#">Gallery</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/gallery">Gallery</a></li>
         <li><a class="dropdown-item text-dark fs-5" href="/blog">Blog</a></li>
       </ul>
     </li>

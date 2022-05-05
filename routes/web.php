@@ -30,6 +30,22 @@ Route::get('/mediapartner', function () {
     return view('mediapartner');
 });
 
+Route::get('/careerexpo', function () {
+    return view('careerexpo');
+});
+
+Route::get('/webinar', function () {
+    return view('webinar');
+});
+
+Route::get('/careerexpo/alur', function () {
+    return view('alurcareerexpo');
+});
+
+Route::get('/webinar/alur', function () {
+    return view('alurwebinar');
+});
+
 Route::get('/gallery', function () {
     return view('gallery');
 });
