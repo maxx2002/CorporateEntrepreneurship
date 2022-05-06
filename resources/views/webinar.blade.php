@@ -4,20 +4,24 @@
 
 @section('content')
 <div style="z-index: -1">
-    <img src="{{ asset('img/hiasan/kanan.svg') }}" alt="" class="samping1">
     <img src="{{ asset('img/hiasan/assetkiri.svg') }}" alt="" class="assetkiri">
     <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
 </div>
 
-<h1 class="text-center my-5">WEBINAR FROM BOTTOM TO TOP</h1>
+<h1 class="text-center my-5">WEBINAR <br> "FROM BOTTOM TO TOP"</h1>
+
+{{-- <div class="d-flex justify-content-center">
+
+</div> --}}
+
 <div class="d-flex justify-content-center">
-    <div>
+    <div class="h-100">
         <h2 class="text-center mb-3">Day 1</h2>
-        <div class="card" style="width: 25rem;">
-            <img src="img/Junarsyi.png" class="w-100" alt="...">
-            <div class="card-body">
-              <h2 class="card-title fs-5">Reach Your Dream Company</h2>
-              <p>Jumat, 3 Juni 2022 pukul 09.30 WIB - selesai <br> Speaker: Junar Asunyi - HR Content Creator</p>
+        <div class="" style="width: 25rem;">
+            <div style="height: 27rem" class="d-flex align-items-center">
+                <img src="img/Junarsyi.png" class="w-100" alt="...">
+            </div>            
+            <div class="card-body mt-2">
               <a href="/webinar/alur" class="btn w-100" style="background-color: #FF6E00">Daftar</a>
             </div>
         </div>
@@ -25,11 +29,11 @@
     
     <div class="ms-5">
         <h2 class="text-center mb-3">Day 2</h2>
-        <div class="card" style="width: 25rem;">
-            <img src="img/Irwan.png" class="w-100" alt="...">
-            <div class="card-body">
-              <h2 class="card-title fs-5">Step Up Your Career</h2>
-              <p class="card-text">Sabtu, 4 Juni 2022 pukul 09.30 WIB - selesai <br>Speaker: Irwan Prasetyo - Senior Manager Finance Adidas US</p>
+        <div class="" style="width: 25rem;">
+            <div style="height: 27rem" class="d-flex align-items-center">
+                <img src="img/Irwan.png" class="w-100" alt="...">
+            </div>            
+            <div class="card-body mt-2">
               <a href="/webinar/alur" class="btn w-100" style="background-color: #FF6E00">Daftar</a>
             </div>
         </div>
