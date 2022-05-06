@@ -3,6 +3,12 @@
 @section('title', 'Blog - UC Virtual Career Expo')
 
 @section('content')
+<div style="z-index: -1">
+    <img src="{{ asset('img/hiasan/kanan.svg') }}" alt="" class="samping1">
+    <img src="{{ asset('img/hiasan/assetkiri.svg') }}" alt="" class="assetkiri">
+    <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
+</div>
+
 <div class="d-flex justify-content-center">
     <div style="width: 70%">
         <h1 class="text-center mt-5 mb-3">7 Keterampilan Yang Harus Dimiliki Oleh Seorang Karyawan Perusahaan</h1>

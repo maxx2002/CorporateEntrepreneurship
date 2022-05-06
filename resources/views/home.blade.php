@@ -13,8 +13,8 @@
 <div class="jumbotron">
     <img src="img/logobesar.svg" alt="" class="logohome">
     <div class="mt-5">
-        <a href="{{ asset('pdf/proposalkegiatan.pdf') }}" download class="btn px-3" style="background-color: #FF6E00">Proposal Kegiatan</a>
-        <a href="{{ asset('pdf/proposalsponsor.pdf') }}" download class="btn px-3 ms-2" style="background-color: #FF6E00">Proposal Sponsorship</a>
+        <a href="{{ asset('pdf/proposalkegiatan.pdf') }}" download class="btn px-3 hoverableborder" style="background-color: #FF6E00">Proposal Kegiatan</a>
+        <a href="{{ asset('pdf/proposalsponsor.pdf') }}" download class="btn px-3 ms-2 hoverableborder" style="background-color: #FF6E00">Proposal Sponsorship</a>
     </div>
 </div>
 <div class="d-flex justify-content-center mt-5">
@@ -24,11 +24,13 @@
             <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
-            <div class="card-body">
-              <h2 class="card-title">About Us</h2>
-              <p class="card-text">Virtual Career Expo 2.0 adalah acara tahunan yang di selenggarakan oleh mata kuliah Corporate Entrepreneurship Universitas Ciputra Surabaya. Kegiatan Virtual Career Expo 2.0 merupakan kegiatan yang mempertemukan para calon intrapreneur dengan berbagai perusahaan-perusahaan yang menjadi impiannya. </p>
-              <a href="#" class="btn px-3" style="background-color: #FF6E00">Read More</a>
-            </div>
+            <div class="d-flex align-items-center h-100">
+              <div class="card-body">              
+                <h2 class="card-title">About Us</h2>
+                <p class="card-text">Virtual Career Expo 2.0 adalah acara tahunan yang di selenggarakan oleh mata kuliah Corporate Entrepreneurship Universitas Ciputra Surabaya. Kegiatan Virtual Career Expo 2.0 merupakan kegiatan yang mempertemukan para calon intrapreneur dengan berbagai perusahaan-perusahaan yang menjadi impiannya. </p>
+                <a href="/about" class="btn px-3 hoverableborder" style="background-color: #FF6E00">Read More</a>
+              </div>
+            </div>            
           </div>
         </div>
     </div>

@@ -52,7 +52,7 @@
                 </tr>
               </tbody>
             </table>
-            <a href="" class="btn px-5 my-3" style="background-color: #FF6E00">Daftar Sekarang</a>          
+            <a href="/careerexpo/alur" class="btn px-5 my-3 hoverableborder" style="background-color: #FF6E00">Daftar Sekarang</a>          
       </div>
   </div>
 </div>
@@ -93,7 +93,7 @@
                 </tr>
               </tbody>
             </table>
-            <a href="" class="btn px-5 my-3" style="background-color: #FF6E00">Daftar Sekarang</a>          
+            <a href="/careerexpo/alur" class="btn px-5 my-3 hoverableborder" style="background-color: #FF6E00">Daftar Sekarang</a>          
       </div>
   </div>
 </div>

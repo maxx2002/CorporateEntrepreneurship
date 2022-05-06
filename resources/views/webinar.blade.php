@@ -22,7 +22,7 @@
                 <img src="img/Junarsyi.png" class="w-100" alt="...">
             </div>            
             <div class="card-body mt-2">
-              <a href="/webinar/alur" class="btn w-100" style="background-color: #FF6E00">Daftar</a>
+              <a href="/webinar/alur" class="btn w-100 hoverableborder" style="background-color: #FF6E00">Daftar</a>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
                 <img src="img/Irwan.png" class="w-100" alt="...">
             </div>            
             <div class="card-body mt-2">
-              <a href="/webinar/alur" class="btn w-100" style="background-color: #FF6E00">Daftar</a>
+              <a href="/webinar/alur" class="btn w-100 hoverableborder" style="background-color: #FF6E00">Daftar</a>
             </div>
         </div>
     </div>
