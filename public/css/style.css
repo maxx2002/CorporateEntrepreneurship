@@ -7,6 +7,47 @@ black: #000000
 white: #FFFFFF
 */
 
+.ataskiri {
+    position: absolute;
+    top: 0;
+    width: 20vw;
+}
+
+.samping1 {
+    position: absolute;
+    right: 0;
+    top: 90vh;
+    width: 10vw;
+}
+
+.samping2 {
+    position: absolute;
+    left: 0;
+    top: 180vh;
+    width: 10vw;
+}
+
+.snow {
+    position: absolute;
+    left: 60%;
+    top: 1vh;
+    width: 30px;
+}
+
+.assetkiri {
+    position: absolute;
+    left: 10%;
+    top: 13vh;
+    width: 5vw;
+}
+
+.assetkanan {
+    position: absolute;
+    right: 0;
+    top: 33vh;
+    width: 15vw;
+}
+
 p, li {
     font-family: 'Chivo', sans-serif;
     font-weight: 400;

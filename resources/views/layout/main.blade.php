@@ -13,6 +13,11 @@
     <link rel="stylesheet" href={{ asset("css/style.css") }}>
 </head>
 <body style="background-image: url({{ asset('img/bg.svg') }}); background-size: cover">
+    <div style="z-index: -1">
+        <img src="{{ asset('img/hiasan/ataskiri.svg') }}" alt="" class="ataskiri">
+        <img src="{{ asset('img/hiasan/snow.svg') }}" alt="" class="snow">
+    </div>
+
     @include('layout.header')
     <div class="" style="min-height: 60vh">
         @yield('content')
