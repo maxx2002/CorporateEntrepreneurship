@@ -3,6 +3,10 @@
 @section('title', 'Sponsors - UC Virtual Career Expo')
 
 @section('content')
+<div style="z-index: -1">
+  <img src="{{ asset('img/hiasan/assetkiri.svg') }}" alt="" class="assetkiri">
+</div>
+
 <h1 class="text-center my-5">SPONSORS</h1>
 <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner mx-auto">            

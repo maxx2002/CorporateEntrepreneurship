@@ -3,6 +3,12 @@
 @section('title', 'Career Expo - UC Virtual Career Expo')
 
 @section('content')
+<div style="z-index: -1">
+  <img src="{{ asset('img/hiasan/kanan.svg') }}" alt="" class="samping1">
+  <img src="{{ asset('img/hiasan/assetkiri.svg') }}" alt="" class="assetkiri">
+  <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
+</div>
+
 <h1 class="text-center my-5">VIRTUAL CAREER EXPO 2.0</h1>
 
 <div class="d-flex justify-content-center my-5">

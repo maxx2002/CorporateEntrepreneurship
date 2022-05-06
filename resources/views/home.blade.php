@@ -7,8 +7,7 @@
   <img src="{{ asset('img/hiasan/kanan.svg') }}" alt="" class="samping1">
   <img src="{{ asset('img/hiasan/kiri.svg') }}" alt="" class="samping2">
   <img src="{{ asset('img/hiasan/assetkiri.svg') }}" alt="" class="assetkiri">
-  <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">
-  
+  <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
 </div>
 
 <div class="jumbotron">

@@ -3,6 +3,11 @@
 @section('title', 'Alur Pendaftaran Webinar - UC Virtual Career Expo')
 
 @section('content')
+<div style="z-index: -1">
+  <img src="{{ asset('img/hiasan/assetkiri.svg') }}" alt="" class="assetkiri">
+  <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
+</div>
+
 <h1 class="text-center my-5">ALUR PENDAFTARAN WEBINAR</h1>
 <div class="d-flex justify-content-center">
     <div style="width: 70%">
