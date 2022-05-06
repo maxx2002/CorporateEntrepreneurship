@@ -12,8 +12,8 @@
 <h1 class="text-center my-5">VIRTUAL CAREER EXPO 2.0</h1>
 
 <div class="d-flex justify-content-center my-5">
-    <a id="btnday1" class="btn" style="background-color: #FF6E00">Day 1</a>
-    <a id="btnday2" class="btn ms-4" style="background-color: #FF6E00">Day 2</a>
+    <a id="btnday1" class="btn border border-dark" style="background-color: #FF6E00">Day 1</a>
+    <a id="btnday2" class="btn ms-4 border" style="background-color: #FF6E00">Day 2</a>
 </div>
 
 <div id="day1">
