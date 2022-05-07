@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Perusahaan;
 use App\Models\Lowongan;
+use App\Models\Beasiswa;
 
 class PerusahaanController extends Controller
 {
@@ -17,7 +18,8 @@ class PerusahaanController extends Controller
     public function company($id){
         $perusahaan = Perusahaan::where('id_perusahaan', $id)->first();
         $lowongan = Lowongan::where('perusahaan_id', $id)->get();
+        $beasiswa = Beasiswa::where('perusahaan_id', $id)->get();
 
-        return view('companydetail', compact('perusahaan', 'lowongan'));
+        return view('companydetail', compact('perusahaan', 'lowongan', 'beasiswa'));
     }
 }
