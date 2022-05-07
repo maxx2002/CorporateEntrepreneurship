@@ -21,8 +21,9 @@
             <div style="height: 27rem" class="d-flex align-items-center">
                 <img src="img/Junarsyi.png" class="w-100" alt="...">
             </div>            
-            <div class="card-body mt-2">
-              <a href="/webinar/alur" class="btn w-100 hoverableborder" style="background-color: #FF6E00">Daftar</a>
+            <div class="card-body">
+              <p class="text-center">Jumat, 3 Juni 2022 <br> 09.30 WIB - selesai</p>
+              <a href="/webinar/alur" class="btn w-100 hoverableborder mt-2" style="background-color: #FF6E00">Daftar</a>
             </div>
         </div>
     </div>
@@ -33,8 +34,9 @@
             <div style="height: 27rem" class="d-flex align-items-center">
                 <img src="img/Irwan.png" class="w-100" alt="...">
             </div>            
-            <div class="card-body mt-2">
-              <a href="/webinar/alur" class="btn w-100 hoverableborder" style="background-color: #FF6E00">Daftar</a>
+            <div class="card-body">
+              <p class="text-center">Sabtu, 4 Juni 2022 <br> 09.30 WIB - selesai</p>
+              <a href="/webinar/alur" class="btn w-100 hoverableborder mt-2" style="background-color: #FF6E00">Daftar</a>
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@
 <h1 class="text-center my-5">BLOG</h1>
 <div class="d-flex justify-content-center">
     <div class="card" style="width: 25rem;">
-        <img src="img/dummy.svg" class="w-100" alt="...">
+        <img src="https://static.wixstatic.com/media/325aa0_9f2f7da218a74084a3f12d25db292eb3~mv2.jpg/v1/fill/w_556,h_371,fp_0.50_0.50,q_90,enc_auto/325aa0_9f2f7da218a74084a3f12d25db292eb3~mv2.jpg" class="w-100" alt="...">
         <div class="card-body">
           <div class="d-flex">
             <img src="img/logouc.png" alt="" style="width: 50px; height: 50px">
@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="card ms-5" style="width: 25rem;">
-        <img src="img/dummy.svg" class="card-img-top" alt="...">
+        <img src="https://static.wixstatic.com/media/325aa0_a5e7bb066e9147d1800ce26367a03ae5~mv2.jpg/v1/fill/w_925,h_617,al_c,q_90/325aa0_a5e7bb066e9147d1800ce26367a03ae5~mv2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <div class="d-flex">
             <img src="img/logouc.png" alt="" style="width: 50px; height: 50px">
@@ -38,7 +38,7 @@
 </div>
 <div class="d-flex justify-content-center my-5">
     <div class="card" style="width: 25rem;">
-        <img src="img/dummy.svg" class="card-img-top" alt="...">
+        <img src="https://static.wixstatic.com/media/325aa0_08c335379dbf4de991c5428b3d377413~mv2.png/v1/fill/w_750,h_500,al_c,q_90/325aa0_08c335379dbf4de991c5428b3d377413~mv2.webp" class="card-img-top w-100" alt="...">
         <div class="card-body">
           <div class="d-flex">
             <img src="img/logouc.png" alt="" style="width: 50px; height: 50px">
@@ -50,7 +50,7 @@
         </div>
     </div>
     <div class="card ms-5" style="width: 25rem;">
-        <img src="img/dummy.svg" class="card-img-top" alt="...">
+        <img src="https://static.wixstatic.com/media/325aa0_ea9fdd8319a346489565f1daf14a14a1~mv2.jpg/v1/fill/w_925,h_617,al_c,q_90/325aa0_ea9fdd8319a346489565f1daf14a14a1~mv2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <div class="d-flex">
             <img src="img/logouc.png" alt="" style="width: 50px; height: 50px">
