@@ -11,13 +11,13 @@
 
 <h1 class="text-center mt-5 mb-3">5 Hal Yang Dinilai HRD Saat Interview</h1>
 <div class="d-flex justify-content-center">
-    <div style="width: 70%">
+    <div class="widthpersen2">
         <div class="d-flex align-items-center justify-content-center">
             <img src="{{ asset('img/logouc.png') }}" alt="" style="width: 40px; height: 40px">
             <p class="ms-3 mt-3">Corporate Entrepreneurship - May 14, 2021 - 1 min read</p>
         </div>
         <div class="d-flex justify-content-center my-3">
-            <img src="https://static.wixstatic.com/media/325aa0_9f2f7da218a74084a3f12d25db292eb3~mv2.jpg/v1/fill/w_556,h_371,fp_0.50_0.50,q_90,enc_auto/325aa0_9f2f7da218a74084a3f12d25db292eb3~mv2.jpg" alt="">
+            <img class="widthpersen" src="https://static.wixstatic.com/media/325aa0_9f2f7da218a74084a3f12d25db292eb3~mv2.jpg/v1/fill/w_556,h_371,fp_0.50_0.50,q_90,enc_auto/325aa0_9f2f7da218a74084a3f12d25db292eb3~mv2.jpg" alt="">
         </div>
         <p>Kamu sudah pernah melamar kerja dimana-mana tetapi gagal terus? Kamu tidak tau kesalahan kamu dimana saat melakukan interview?  Mungkin kamu melakukan kesalahan yang tidak sengaja. Ada beberapa hal yang dinilai oleh HRD saat kamu wawancara / interview kerja. Berikut beberapa hal yang dinilai oleh HRD saat wawancara.</p>
         <br>

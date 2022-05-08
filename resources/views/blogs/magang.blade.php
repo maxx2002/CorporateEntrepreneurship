@@ -10,7 +10,7 @@
 </div>
 
 <div class="d-flex justify-content-center">
-    <div style="width: 70%">
+    <div class="widthpersen2">
         <h1 class="text-center mt-5 mb-3">4 Tips Mencari Magang Buat Fresh Graduate & Mahasiswa</h1>
         <div class="d-flex align-items-center justify-content-center mb-3">
             <img src="{{ asset('img/logouc.png') }}" alt="" style="width: 40px; height: 40px">
@@ -20,7 +20,7 @@
         <p>Kamu fresh graduate? mahasiswa tingkat akhir?  pasti kamu sedang mencari-cari program kerja magang. Buat kamu mahasiswa tingkat akhir pasti kampus kamu diminta untuk menyelesaikan program kerja magang sebelum kamu mulai susun skripsi. Magang biasanya dilakukan dengan waktu rata-rata 3 - 6 bulan</p>
         
         <div class="d-flex justify-content-center my-3">
-            <img src="https://static.wixstatic.com/media/325aa0_a5e7bb066e9147d1800ce26367a03ae5~mv2.jpg/v1/fill/w_925,h_617,al_c,q_90/325aa0_a5e7bb066e9147d1800ce26367a03ae5~mv2.webp" alt="">
+            <img class="widthpersen" src="https://static.wixstatic.com/media/325aa0_a5e7bb066e9147d1800ce26367a03ae5~mv2.jpg/v1/fill/w_925,h_617,al_c,q_90/325aa0_a5e7bb066e9147d1800ce26367a03ae5~mv2.webp" alt="">
         </div>
         
         <p>Nah, buat kamu yang sedang cari tempat magang, corporate entrepreneurship punya 6 Tips buat kamu nihh !</p>

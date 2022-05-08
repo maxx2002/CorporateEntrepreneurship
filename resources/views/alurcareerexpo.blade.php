@@ -8,7 +8,7 @@
   <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
 </div>
 
-<h1 class="text-center my-5">ALUR PENDAFTARAN VIRTUAL CAREER EXPO 2.0</h1>
+<h1 class="text-center my-5 mx-5">ALUR PENDAFTARAN VIRTUAL CAREER EXPO 2.0</h1>
 <div class="d-flex justify-content-center">
     <div style="width: 70%">
         <p>Peserta berkunjung pada link bit.ly/UCCareerExpo2022

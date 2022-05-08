@@ -7,6 +7,52 @@ black: #000000
 white: #FFFFFF
 */
 
+.videogallery {
+    width: 640px; 
+    height: 360px;
+    z-index: 9999;
+}
+
+.gambarwebinar {
+    height: 432px;
+}
+
+.webinarcard {
+    width: 400px;
+}
+
+.gambarabout {
+    height: 300px;
+}
+
+.hiddenflex {
+    display: none;
+}
+
+.flexhidden {
+    display: flex;
+}
+
+.hiddenblock {
+    display: none;
+}
+
+.blockhidden {
+    display: block;
+}
+
+.cardblog {
+    width: 25rem;
+}
+
+.widthpersen {
+    width: 60%;
+}
+
+.widthpersen2 {
+    width: 70%;
+}
+
 .ataskiri {
     position: absolute;
     top: 0;
@@ -46,6 +92,11 @@ white: #FFFFFF
     right: 0;
     top: 33vh;
     width: 15vw;
+}
+
+.chivo {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
 }
 
 p, li {
@@ -108,4 +159,114 @@ h2, a {
     cursor: pointer;
     transition: 0.3s;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+@media only screen and (max-width: 1024px) {
+    .widthpersen {
+        width: 70%;
+    }
+    
+    .widthpersen2 {
+        width: 80%;
+    }
+
+    .logohome {
+        width: 70%;
+    }
+    
+    .jumbotron {
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .snow {
+        display: none;
+    }
+    
+    .assetkiri {
+        display: none;
+    }
+    
+    .assetkanan {
+        display: none;
+    }
+
+    .ataskiri {
+        width: 25vw;
+    }
+
+    .samping1 {
+        position: absolute;
+        right: 0;
+        top: 90vh;
+        width: 15vw;
+    }
+    
+    .samping2 {
+        position: absolute;
+        left: 0;
+        top: 180vh;
+        width: 15vw;
+    }
+
+    .logohome {
+        width: 75%;
+    }
+    
+    .jumbotron {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .widthpersen {
+        width: 80%;
+    }
+
+    .cardblog {
+        width: 80%;
+    }
+
+    .hiddenflex {
+        display: flex;
+    }
+    
+    .flexhidden {
+        display: none;
+    }
+
+    .hiddenblock {
+        display: block;
+    }
+    
+    .blockhidden {
+        display: none;
+    }
+
+    .webinarcard {
+        width: 300px;
+    }
+
+    .gambarwebinar {
+        height: 332px;
+    }
+    
+    .widthpersen2 {
+        width: 90%;
+    }
+
+    .videogallery {
+        width: 320px; 
+        height: 180px;
+    }
+
+    .imggallery {
+        width: 320px; 
+    }
 }

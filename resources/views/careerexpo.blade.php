@@ -4,12 +4,11 @@
 
 @section('content')
 <div style="z-index: -1">
-  <img src="{{ asset('img/hiasan/kanan.svg') }}" alt="" class="samping1">
   <img src="{{ asset('img/hiasan/assetkiri.svg') }}" alt="" class="assetkiri">
   <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
 </div>
 
-<h1 class="text-center my-5">VIRTUAL CAREER EXPO 2.0</h1>
+<h1 class="text-center my-5 mx-5">VIRTUAL CAREER EXPO 2.0</h1>
 
 <div class="d-flex justify-content-center my-5">
     <a id="btnday1" class="btn border border-dark" style="background-color: #FF6E00">Day 1</a>
@@ -20,7 +19,7 @@
   <h1 class="text-center my-5">Hari, Tanggal</h1>
 
   <div class="d-flex justify-content-center">
-      <div style="width: 70%">
+      <div class="widthpersen2">
           <h2>Rundown</h2>
           <table class="table">
               <thead>
@@ -61,7 +60,7 @@
   <h1 class="text-center my-5">Hari, Tanggal2</h1>
 
   <div class="d-flex justify-content-center">
-      <div style="width: 70%">
+      <div class="widthpersen2">
           <h2>Rundown</h2>
           <table class="table">
               <thead>

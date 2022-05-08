@@ -1,6 +1,6 @@
-<div class="container mb-4 mt-5">   
+<div class="container">   
     <div class="row">
-      <div class="col my-auto">
+      <div class="col my-auto mb-4 mt-3 mt-md-5">
         <div class="d-flex justify-content-center">
             <div>
                 <div class="d-flex justify-content-center">
@@ -11,7 +11,7 @@
             </div>
         </div>
       </div>
-      <div class="col my-auto">
+      <div class="col my-auto mb-4 mt-3 mt-md-5">
         <div class="d-flex justify-content-center align-items-center">
             <div>
                 <div class="d-flex align-items-center mb-3">
@@ -38,7 +38,7 @@
             </div>
         </div>
       </div>
-      <div class="col my-auto">
+      <div class="col my-auto mb-4 mt-3 mt-md-5">
         <div class="d-flex justify-content-center">
             <div>
                 <div class="d-flex justify-content-center">

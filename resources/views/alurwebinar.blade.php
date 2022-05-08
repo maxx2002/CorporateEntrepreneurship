@@ -8,7 +8,7 @@
   <img src="{{ asset('img/hiasan/assetkanan.svg') }}" alt="" class="assetkanan">  
 </div>
 
-<h1 class="text-center my-5">ALUR PENDAFTARAN WEBINAR</h1>
+<h1 class="text-center my-5 mx-5">ALUR PENDAFTARAN WEBINAR</h1>
 <div class="d-flex justify-content-center">
     <div style="width: 70%">
         <p>Peserta berkunjung pada link bit.ly/WebinarCE22
@@ -21,7 +21,7 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSvdlbTcVVRkG9hP_fLhlcMco-kQ8MXO4JlYuXTXFq9T7inQ/viewform" target="_blank" class="btn px-3 hoverableborder" style="background-color: #FF6E00">Daftar Sekarang</a>
         <h1 class="my-5 text-center">ALUR</h1>
         <div class="container">
-            <div class="row">
+            <div class="row gap-3">
               <div class="col">
                 <div class="d-flex justify-content-center">
                     <img src="{{ asset('img/web.svg') }}" alt="" style="height: 100px">

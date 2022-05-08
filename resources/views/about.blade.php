@@ -11,10 +11,12 @@
 
 <h1 class="text-center mt-5">ABOUT US</h1>
 <div class="d-flex justify-content-center mt-5">
-    <div class="mb-3" style="max-width: 60%;">
+    <div class="mb-3 widthpersen">
         <div class="row g-3">
           <div class="col-md-4">
-            <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+            <div class="d-flex align-items-center h-100">
+              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+            </div>  
           </div>
           <div class="col-md-8">
             <div class="d-flex align-items-center h-100">
@@ -28,8 +30,8 @@
     </div>
 </div>
 
-<div class="d-flex justify-content-center mt-5">
-    <div class="mb-3" style="max-width: 60%;">
+<div class="justify-content-center mt-5 flexhidden">
+    <div class="mb-3 widthpersen">
         <div class="row g-3">          
           <div class="col-md-8">
             <div class="d-flex align-items-center h-100">
@@ -40,17 +42,41 @@
             </div>            
           </div>
           <div class="col-md-4">
-            <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+            <div class="d-flex align-items-center h-100">
+              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+            </div>            
           </div>
         </div>
     </div>
 </div>
 
+<div class="justify-content-center mt-5 hiddenflex">
+    <div class="mb-3 widthpersen">
+        <div class="row g-3">    
+          <div class="col-md-4">
+            <div class="d-flex align-items-center h-100">
+              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+            </div>            
+          </div>      
+          <div class="col-md-8">
+            <div class="d-flex align-items-center h-100">
+              <div class="card-body">
+                <h2 class="card-title">Career Expo</h2>
+                <p class="card-text">Career Expo merupakan acara tahunan yang diselenggarakan setiap tahun. Acara ini sudah berlangsung sejak tahun 2017. Acara Career Expo akan dihadiri banyak perusahaan dari berbagai macam sektor atau bidang yang berbeda. Perusahaan yang akan hadir dalam kegiatan ini adalah perusahaan yang terkenal dikalangan masyarakat luas dan menjadi incaran di masyarakat luas. Harapan dari kami adalah perusahaan bisa menemukan intrapreneur yang handal dan profesional. Sedangkan pada calon intrapreneur harapannya bisa masuk kedalam perusahaan yang di impikan</p>
+              </div>
+            </div>            
+          </div>          
+        </div>
+    </div>
+</div>
+
 <div class="d-flex justify-content-center mt-5">
-    <div class="mb-3" style="max-width: 60%;">
+    <div class="mb-3 widthpersen">
         <div class="row g-3">
           <div class="col-md-4">
-            <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+            <div class="d-flex align-items-center h-100">
+              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+            </div>  
           </div>
           <div class="col-md-8">
             <div class="d-flex align-items-center h-100">

@@ -10,14 +10,14 @@
 </div>
 
 <div class="d-flex justify-content-center">
-    <div style="width: 70%">
+    <div class="widthpersen2">
         <h1 class="text-center mt-5 mb-3">Cara Membuat Curriculum Vitae (CV) Yang Baik dan Benar</h1>
         <div class="d-flex align-items-center justify-content-center mb-3">
             <img src="{{ asset('img/logouc.png') }}" alt="" style="width: 40px; height: 40px">
             <p class="ms-3 my-3">Corporate Entrepreneurship - May 14, 2021 - 1 min read</p>
         </div>        
         <div class="d-flex justify-content-center my-3">
-            <img src="https://static.wixstatic.com/media/325aa0_08c335379dbf4de991c5428b3d377413~mv2.png/v1/fill/w_750,h_500,al_c,q_90/325aa0_08c335379dbf4de991c5428b3d377413~mv2.webp" alt="">
+            <img class="widthpersen" src="https://static.wixstatic.com/media/325aa0_08c335379dbf4de991c5428b3d377413~mv2.png/v1/fill/w_750,h_500,al_c,q_90/325aa0_08c335379dbf4de991c5428b3d377413~mv2.webp" alt="">
         </div>
         <p>Banyak sekali perusahaan menemukan calon kandidat yang menulis riwayat hidup atau curriculum vitae (CV) yang salah saat melakukan interview. Apakah kamu pernah salah juga dalam membuat curriculum vitae ?  atau kamu bingung gimana cara buat curicullum vitae? </p>
         <p>Yuk, mari kita bahas bagaimana cara membuat curriculum vitae dengan baik & benar agar perusahaan dapat melihat dirimu.</p>
