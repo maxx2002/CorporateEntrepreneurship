@@ -4,18 +4,20 @@
 
 @section('content')
 <h1 class="text-center my-5">SCHOLARSHIP VACANCY</h1>
-<div class="row p-5 mx-5">
+<div class="row mx-0 p-lg-5 mx-lg-5 p-5">
     @foreach ($beasiswa as $scholarship)
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6">
             <div class="p-5 rounded text-center mx-2 my-5" style="background-color: #FFF351">
             <div class="mb-4">
-                <img src="{{$scholarship->perusahaan->logo_path}}" class="img-fluid"/>
+              <a href="/companylist/{{$scholarship->perusahaan->id_perusahaan}}">
+                <img src="{{$scholarship->perusahaan->logo_path}}" class="img-fluid hoverableborder"/>
+              </a>
             </div>
                 <h2 class="py-2">{{$scholarship->nama_beasiswa}}</h2>
                 <p class="pb-3">{{$scholarship->jurusan_dibutuhkan}}</p>
-                <div class="row">
-                    <a href="#" class="btn px-2 rounded col mx-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
-                    <a href="#" id="setmodal-persyaratan" class="btn px-2 rounded col mx-2 hoverableborder" data-toggle="modal" data-target="#modal-persyaratan" style="background-color: #ffffff"
+                <div class="row justify-content-center">
+                    <a href="#" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
+                    <a href="#" id="setmodal-persyaratan" class="btn px-2 rounded col m-2 hoverableborder" data-toggle="modal" data-target="#modal-persyaratan" style="background-color: #ffffff"
                     data-namalowongan="<?=$scholarship->nama_beasiswa?>"
                     data-jurusan="<?=$scholarship->jurusan_dibutuhkan?>"
                     data-requirement="<?=$scholarship->requirement?>">Persyaratan</a>

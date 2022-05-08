@@ -4,25 +4,27 @@
 
 @section('content')
 <h1 class="text-center my-5">JOB VACANCY</h1>
-<div id="myBtnContainer" class="d-flex justify-content-center">
-  <a class="btn mx-2 px-2 rounded active hoverableborder" style="background-color: #FF6E00" onclick="filterSelection('all')"> Show all</a>
-  <a class="btn mx-2 px-2 rounded hoverableborder" style="background-color: #FF6E00" onclick="filterSelection('Full-time')"> Full-time</a>
-  <a class="btn mx-2 px-2 rounded hoverableborder" style="background-color: #FF6E00" onclick="filterSelection('Part-time')"> Part-time</a>
-  <a class="btn mx-2 px-2 rounded hoverableborder" style="background-color: #FF6E00" onclick="filterSelection('Internship')"> Internship</a>
-  <a class="btn mx-2 px-2 rounded hoverableborder" style="background-color: #FF6E00" onclick="filterSelection('Freelance')"> Freelance</a>
+<div id="myBtnContainer" class="row mx-0 row-cols-auto justify-content-center">
+  <a class="btn m-2 px-2 rounded active hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('all')"> Show all</a>
+  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Full-time')"> Full-time</a>
+  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Part-time')"> Part-time</a>
+  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Internship')"> Internship</a>
+  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Freelance')"> Freelance</a>
 </div>
-<div class="row p-5 mx-5">
+<div class="row mx-0 p-lg-5 mx-lg-5 p-5">
     @foreach ($lowongan as $item)
-        <div class="col-md-4 filterDiv {{$item->bentuk_pekerjaan}}">
+        <div class="col-lg-4 col-md-6 filterDiv {{$item->bentuk_pekerjaan}}">
             <div class="p-5 rounded text-center mx-2 my-5" style="background-color: #FFF351">
             <div class="mb-4">
-                <img src="{{$item->perusahaan->logo_path}}" class="img-fluid"/>
+              <a href="/companylist/{{$item->perusahaan->id_perusahaan}}">
+                <img src="{{$item->perusahaan->logo_path}}" class="img-fluid hoverableborder"/>
+              </a>
             </div>  
               <h2 class="py-2">{{$item->nama_lowongan}}</h2>
                 <p class="pb-3">{{$item->perusahaan->nama_perusahaan}}</p>
-                <div class="row">
-                    <a href="#" class="btn px-2 rounded col mx-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
-                    <a href="#" id="setmodal-persyaratan" class="btn px-2 rounded col mx-2 hoverableborder" data-toggle="modal" data-target="#modal-persyaratan" style="background-color: #ffffff"
+                <div class="row justify-content-center">
+                    <a href="#" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
+                    <a href="#" id="setmodal-persyaratan" class="btn px-2 rounded col m-2 hoverableborder" data-toggle="modal" data-target="#modal-persyaratan" style="background-color: #ffffff"
                     data-namalowongan="<?=$item->nama_lowongan?>"
                     data-jurusan="<?=$item->jurusan_dibutuhkan?>"
                     data-bentukpekerjaan="<?=$item->bentuk_pekerjaan?>"
@@ -40,13 +42,14 @@
     <div class="modal-content" style="background-color: #FFF4DD">
       <div class="modal-header">
         <h1 class="modal-title" id="exampleModalLongTitle">PERSYARATAN</h1>
-        <p class="h5">(<span id="bentuk_pekerjaan"></span>)</p>
+        
         <img class="img-fluid close zoom" width="20" data-dismiss="modal" aria-label="Close" src="img/closebtn.png"/>
       </div>
       <div class="modal-body">
         <div class="py-2">
         <h2 class="h5 d-inline">Lowongan: </h2>
         <p class="d-inline" id="nama_lowongan"></p>
+        <p class="d-inline">(<span id="bentuk_pekerjaan"></span>)</p>
         </div>
         <div class="py-2">
         <h2 class="h5 d-inline">Major: </h2>

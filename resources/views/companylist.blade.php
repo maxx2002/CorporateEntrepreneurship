@@ -4,9 +4,9 @@
 
 @section('content')
 <h1 class="text-center my-5">COMPANY LIST</h1>
-<div class="row p-5 mx-5">
+<div class="row mx-0 p-lg-5 mx-lg-5 p-5">
     @foreach ($perusahaan as $company)
-    <div class="col-md-4">
+    <div class="col-lg-4 col-md-6">
         
         <div class="p-2 rounded text-center mx-2 my-5">
             <div>
