@@ -32,7 +32,7 @@
                     <img src="{{ asset('img/email.svg') }}" alt="" class="logofoot me-3">
                     <div>
                         <h5 style="margin-bottom: 0px">Email</h5>
-                        <a>careerexpouc2022@gmail.com</a>
+                        <a>careerexpouc2021@gmail.com</a>
                     </div>                    
                 </div>
             </div>
