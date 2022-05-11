@@ -21,7 +21,7 @@
                         </div>            
                         <div class="card-body">
                           <p class="text-center">Jumat, 3 Juni 2022 <br> 09.30 WIB - selesai</p>
-                          <a href="/webinar/alur" class="btn w-100 hoverableborder mt-md-2" style="background-color: #FF6E00">Daftar</a>
+                          <a href="/alur" class="btn w-100 hoverableborder mt-md-2" style="background-color: #FF6E00">Daftar</a>
                         </div>
                     </div>
                 </div>                
@@ -35,7 +35,7 @@
                     </div>            
                     <div class="card-body">
                       <p class="text-center">Sabtu, 4 Juni 2022 <br> 09.30 WIB - selesai</p>
-                      <a href="/webinar/alur" class="btn w-100 hoverableborder mt-md-2" style="background-color: #FF6E00">Daftar</a>
+                      <a href="/alur" class="btn w-100 hoverableborder mt-md-2" style="background-color: #FF6E00">Daftar</a>
                     </div>
                 </div>                
             </div>

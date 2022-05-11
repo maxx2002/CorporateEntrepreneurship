@@ -20,6 +20,7 @@
       <ul class="dropdown-menu">
         <li><a class="dropdown-item text-dark fs-5" href="/careerexpo">Virtual Career Expo 2.0</a></li>
         <li><a class="dropdown-item text-dark fs-5" href="/webinar">Webinar</a></li>
+        <li><a class="dropdown-item text-dark fs-5" href="/alur">Register Here</a></li>
       </ul>
     </li>
     <li class="nav-item dropdown">

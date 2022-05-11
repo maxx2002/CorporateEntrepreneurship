@@ -40,12 +40,8 @@ Route::get('/webinar', function () {
     return view('webinar');
 });
 
-Route::get('/careerexpo/alur', function () {
-    return view('alurcareerexpo');
-});
-
-Route::get('/webinar/alur', function () {
-    return view('alurwebinar');
+Route::get('/alur', function () {
+    return view('alur');
 });
 
 Route::get('/gallery', function () {
