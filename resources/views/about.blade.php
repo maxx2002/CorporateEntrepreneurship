@@ -15,7 +15,7 @@
         <div class="row g-3">
           <div class="col-md-4">
             <div class="d-flex align-items-center h-100">
-              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+              <img src="img/foto/2.jpg" class="img-fluid rounded-start" alt="...">
             </div>  
           </div>
           <div class="col-md-8">
@@ -43,7 +43,7 @@
           </div>
           <div class="col-md-4">
             <div class="d-flex align-items-center h-100">
-              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+              <img src="img/foto/3.jpg" class="img-fluid rounded-start" alt="...">
             </div>            
           </div>
         </div>
@@ -55,7 +55,7 @@
         <div class="row g-3">    
           <div class="col-md-4">
             <div class="d-flex align-items-center h-100">
-              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+              <img src="img/foto/3.jpg" class="img-fluid rounded-start" alt="...">
             </div>            
           </div>      
           <div class="col-md-8">
@@ -75,7 +75,7 @@
         <div class="row g-3">
           <div class="col-md-4">
             <div class="d-flex align-items-center h-100">
-              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+              <img src="img/foto/4.jpg" class="img-fluid rounded-start" alt="...">
             </div>  
           </div>
           <div class="col-md-8">

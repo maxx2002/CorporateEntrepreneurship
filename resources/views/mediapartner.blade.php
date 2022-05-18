@@ -16,10 +16,12 @@
         <div class="carousel-item active">        
           <div class="row">
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/infoevent.jpg" alt="" style="width: 100%;">
+              </div>              
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <img src="img/mp/mediaevent.png" alt="" style="width: 100%;">
             </div>
             <div class="col">
               <img src="img/dummy.svg" alt="" style="width: 100%;">

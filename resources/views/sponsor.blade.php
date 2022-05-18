@@ -16,13 +16,13 @@
         <div class="carousel-item active">        
           <div class="row">
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <img src="img/sponsor/berkah.jpeg" alt="" style="width: 100%;">
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <img src="img/sponsor/surya.jpeg" alt="" style="width: 100%;">
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <img src="img/sponsor/indofood.jpg" alt="" style="width: 100%;">
             </div>
           </div>            
         </div>

@@ -7,6 +7,12 @@ black: #000000
 white: #FFFFFF
 */
 
+.cover {
+    object-fit: cover;
+    width:230px;
+    height:230px;
+}
+
 .videogallery {
     width: 640px; 
     height: 360px;

@@ -22,7 +22,7 @@
         <div class="row g-3">
           <div class="col-md-4">
             <div class="d-flex justify-content-center h-100">
-              <img src="img/dummy.svg" class="img-fluid rounded-start" alt="...">
+              <img src="img/foto/1.jpg" class="img-fluid rounded-start" alt="...">
             </div>            
           </div>
           <div class="col-md-8">
@@ -66,28 +66,68 @@
           <div class="row">
             <div class="col">
               <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
+                    <img src="img/testi/anetta.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h2 class="card-title text-center">Anetta TW</h2>
+                      <p class="card-text text-center">Menurutku acaranya
+                        insightful bgt. Perusahaannya juga
+                        variatif jadi aku banyak dapet
+                        insight juga tentang perusahaan2
+                        yang mungkin sebelumnya aku
+                        belum pernah denger. Selain itu
+                        acaranya juga interaktif, kita
+                        dikasih kesempatan buat tanya2 ke
+                        narasumber langsung. Kita juga
+                        dibantu sama website virtual
+                        career expo buat apply2 ke
+                        perusahaan yang kita pengen.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col">
               <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
+                    <img src="img/testi/berliana.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h2 class="card-title text-center">Berliana Fira</h2>
+                      <p class="card-text text-center">Menurutku career expo virtual asik
+                        dan gak merepotkan untuk antri dll
+                        untuk cari kerja dan mendukung
+                        kemajuan teknologi. Tapi
+                        menurutku kekurangan tahun kmrn
+                        adalah keterbatasan untuk
+                        mendapatkan info lowongan pada
+                        setiap perusahaan karena
+                        keterbatasan saat dibagi breakout
+                        room itu jadi gak bisa join banyak
+                        hehe dan kalo gak salah kmrn
+                        untuk ngelamar juga dibatasi.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col">
               <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
+                    <img src="img/testi/sukma.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h2 class="card-title text-center">Sukma Jenny</h2>
+                      <p class="card-text text-center">UC Virtual Career Expo
+                        memperlihatkan saya pada
+                        informasi-informasi terkait karir
+                        dan hal-hal yang meliputinya.
+                        Berbagai korporasi yang terlibat
+                        cukup representatif lintas bidang
+                        dan orientasi. Tidak sebatas
+                        informasi, tetapi tautan yang
+                        disediakan Uc Career Expo dirasa
+                        dapat mengkatalisasi pergerakan
+                        dari rekan-rekan yang sedang
+                        mempersiapkan karirnya. Apresiasi
+                        tinggi bagi panitia yang telah
+                        menyusun acara dengan begitu
+                        apik, terstruktur, dan tidak
+                        prematur.
+                        </p>
                     </div>
                 </div>
             </div>
