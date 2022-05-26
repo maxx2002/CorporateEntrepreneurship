@@ -24,33 +24,47 @@
               <img src="img/mp/mediaevent.png" alt="" style="width: 100%;">
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/eventaja.webp" alt="" style="width: 100%;">
+              </div> 
             </div>
           </div>            
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/eventsuroboyo.png" alt="" style="width: 100%;">
+              </div> 
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/himman.png" alt="" style="width: 100%;">
+              </div> 
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/mahasiswa.png" alt="" style="width: 100%;">
+              </div> 
             </div>
           </div>  
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/seputar.JPG" alt="" style="width: 100%;">
+              </div> 
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/surabaya.jpg" alt="" style="width: 100%;">
+              </div> 
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <div class="d-flex align-items-center h-100">
+                <img src="img/mp/surabaya.jpg" alt="" style="width: 100%;">
+              </div> 
             </div>
           </div>  
         </div>

@@ -254,25 +254,55 @@
   </div>
 </div>
 
+{{-- Sponsor --}}
 <div class="mt-5">
     <h2 class="text-center mb-4">Sponsors</h2>
-    <div id="carouselExampleControlss" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner mx-auto">            
-          <div class="carousel-item active">
-              <div class="d-flex justify-content-center">
-                <img src="img/dummy.svg" alt="" style="width: 18rem;">
-                <img src="img/dummy.svg" alt="" class="ms-5" style="width: 18rem;">
-                <img src="img/dummy.svg" alt="" class="ms-5" style="width: 18rem;">
+    <div class="justify-content-center flexhidden">
+      <div id="carouselExampleControlss" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 90%">
+        <div class="d-flex justify-content-center">
+          <div class="carousel-inner" style="width: 80%">            
+            <div class="carousel-item active">        
+              <div class="row">
+                <div class="col">
+                  <img src="img/sponsor/berkah.jpeg" alt="" style="width: 100%;">
+                </div>
+                <div class="col">
+                  <img src="img/sponsor/surya.jpeg" alt="" style="width: 100%;">
+                </div>
+                <div class="col">
+                  <img src="img/sponsor/indofood.jpg" alt="" style="width: 100%;">
+                </div>
               </div>            
-          </div>
-          <div class="carousel-item">
-              <div class="d-flex justify-content-center">
-                <img src="img/dummy.svg" alt="" style="width: 18rem;">
-                <img src="img/dummy.svg" alt="" class="ms-5" style="width: 18rem;">
-                <img src="img/dummy.svg" alt="" class="ms-5" style="width: 18rem;">
-              </div>            
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img src="img/dummy.svg" alt="" style="width: 100%;">
+                </div>
+                <div class="col">
+                  <img src="img/dummy.svg" alt="" style="width: 100%;">
+                </div>
+                <div class="col">
+                  <img src="img/dummy.svg" alt="" style="width: 100%;">
+                </div>
+              </div>  
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img src="img/dummy.svg" alt="" style="width: 100%;">
+                </div>
+                <div class="col">
+                  <img src="img/dummy.svg" alt="" style="width: 100%;">
+                </div>
+                <div class="col">
+                  <img src="img/dummy.svg" alt="" style="width: 100%;">
+                </div>
+              </div>  
+            </div>
           </div>
         </div>
+        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlss" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -286,29 +316,68 @@
 </div>
 <div class="mt-5">
     <h2 class="text-center mb-4">Media Partner</h2>
-    <div id="carouselExampleControlsss" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner mx-auto">            
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col">
-                <img src="img/dummy.svg" alt="" style="width: 18rem;">
-              </div>
-              <div class="col">
-                <img src="img/dummy.svg" alt="" style="width: 18rem;">
-              </div>
-              <div class="col">
-                <img src="img/dummy.svg" alt="" style="width: 18rem;">
-              </div>
-            </div>          
-          </div>
-          <div class="carousel-item">
-              <div class="d-flex justify-content-center">
-                <img src="img/dummy.svg" alt="" style="width: 18rem;">
-                <img src="img/dummy.svg" alt="" class="ms-5" style="width: 18rem;">
-                <img src="img/dummy.svg" alt="" class="ms-5" style="width: 18rem;">
+    <div class="justify-content-center flexhidden">
+      <div id="carouselExampleControlsss" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 90%">
+        <div class="d-flex justify-content-center">
+          <div class="carousel-inner" style="width: 80%">            
+            <div class="carousel-item active">        
+              <div class="row">
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/infoevent.jpg" alt="" style="width: 100%;">
+                  </div>              
+                </div>
+                <div class="col">
+                  <img src="img/mp/mediaevent.png" alt="" style="width: 100%;">
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/eventaja.webp" alt="" style="width: 100%;">
+                  </div> 
+                </div>
               </div>            
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/eventsuroboyo.png" alt="" style="width: 100%;">
+                  </div> 
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/himman.png" alt="" style="width: 100%;">
+                  </div> 
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/mahasiswa.png" alt="" style="width: 100%;">
+                  </div> 
+                </div>
+              </div>  
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/seputar.JPG" alt="" style="width: 100%;">
+                  </div> 
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/surabaya.jpg" alt="" style="width: 100%;">
+                  </div> 
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center h-100">
+                    <img src="img/mp/surabaya.jpg" alt="" style="width: 100%;">
+                  </div> 
+                </div>
+              </div>  
+            </div>
           </div>
         </div>
+        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsss" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>

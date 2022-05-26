@@ -18,13 +18,26 @@
     <div class="d-flex justify-content-center mt-5">
         <div class="row widthpersen">
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <img src="img/foto/5.jpg" alt="" style="width: 100%;">
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <img src="img/foto/6.jpg" alt="" style="width: 100%;">
             </div>
             <div class="col">
-              <img src="img/dummy.svg" alt="" style="width: 100%;">
+              <img src="img/foto/7.png" alt="" style="width: 100%;">
+            </div>
+        </div>
+    </div> 
+    <div class="d-flex justify-content-center mt-4">
+        <div class="row widthpersen">
+            <div class="col">
+              <img src="img/foto/8.png" alt="" style="width: 100%;">
+            </div>
+            <div class="col">
+              <img src="img/foto/9.png" alt="" style="width: 100%;">
+            </div>
+            <div class="col">
+              <img src="img/foto/10.png" alt="" style="width: 100%;">
             </div>
         </div>
     </div> 
