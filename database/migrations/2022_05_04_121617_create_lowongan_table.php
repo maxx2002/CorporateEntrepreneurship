@@ -17,10 +17,10 @@ class CreateLowonganTable extends Migration
             $table->id();
             $table->string('perusahaan_id');
             $table->text('nama_lowongan');
-            $table->text('jurusan_dibutuhkan');
             $table->string('bentuk_pekerjaan');
             $table->text('job_desk')->nullable();
             $table->text('requirement')->nullable();
+            $table->text('daerah_penempatan');
             $table->timestamps();
         });
     }
