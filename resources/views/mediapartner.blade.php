@@ -63,7 +63,7 @@
             </div>
             <div class="col">
               <div class="d-flex align-items-center h-100">
-                <img src="img/mp/surabaya.jpg" alt="" style="width: 100%;">
+                <img src="" alt="" style="width: 100%;">
               </div> 
             </div>
           </div>  
