@@ -38,7 +38,7 @@
                     <a href="#" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
                     <a href="#" id="setmodal-persyaratan-lowongan" class="btn px-2 rounded col m-2 hoverableborder" data-toggle="modal" data-target="#modal-persyaratan-lowongan" style="background-color: #ffffff"
                     data-namalowongan="<?=$item->nama_lowongan?>"
-                    data-jurusan="<?=$item->jurusan_dibutuhkan?>"
+                    data-daerah="<?=$item->daerah_penempatan?>"
                     data-bentukpekerjaan="<?=$item->bentuk_pekerjaan?>"
                     data-jobdesk="<?=$item->job_desk?>"
                     data-requirement="<?=$item->requirement?>"
@@ -78,18 +78,19 @@
         <p class="d-inline" id="nama_lowongan"></p>
         <p class="d-inline">(<span id="bentuk_pekerjaan"></span>)</p>
         </div>
+        
         <div class="py-2">
-        <h2 class="h5 d-inline">Major: </h2>
-        <p class="d-inline" id="jurusan_dibutuhkan"></p>
-        </div>
-        <div class="py-2">
-        <h2 class="h5">Job Desk / Responsibilities: </h2>
+        <h2 class="h5">Deskripsi Pekerjaan: </h2>
         <p id="job_desk"></p>
         
         </div>
         <div class="py-2">
-        <h2 class="h5">Requirement: </h2>
+        <h2 class="h5">Kriteria/Requirements: </h2>
         <p id="requirement"></p>
+        </div>
+        <div class="py-2">
+        <h2 class="h5 d-inline">Daerah Penempatan: </h2>
+        <p class="d-inline" id="daerah_penempatan"></p>
         </div>
       </div>
       
@@ -128,12 +129,12 @@
     $(document).ready(function(){
   $(document).on('click', '#setmodal-persyaratan-lowongan', function(){
     var nama_lowongan = $(this).data('namalowongan');
-    var jurusan_dibutuhkan = $(this).data('jurusan');
+    var daerah_penempatan = $(this).data('daerah');
     var bentuk_pekerjaan = $(this).data('bentukpekerjaan');
     var job_desk = $(this).data('jobdesk');
     var requirement = $(this).data('requirement');
     $('#nama_lowongan').html(nama_lowongan);
-    $('#jurusan_dibutuhkan').html(jurusan_dibutuhkan);
+    $('#daerah_penempatan').html(daerah_penempatan);
     $('#bentuk_pekerjaan').html(bentuk_pekerjaan);
     $('#job_desk').html(job_desk);
     $('#requirement').html(requirement);

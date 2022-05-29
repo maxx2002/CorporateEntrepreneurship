@@ -16,7 +16,7 @@ class PerusahaanSeeder extends Seeder
     {
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'CaravanStudio',
-            'logo_path' => 'img/caravanstudio.webp',
+            'logo_path' => 'img/perusahaan/caravanstudio.webp',
             'nama_perusahaan' => 'Caravan Studio',
             'deskripsi_singkat' => 'Caravan Studio didirikan awal tahun 2008 oleh Christiawan Lie (Chris Lie). Caravan merupakan sebuah studio art outsourcing kelas dunia dengan pengalaman lebih dari 10 tahun membuat desain dan ilustrasi untuk perusahaan di dunia, seperti Marvel Comics, Wizard of the Coast, Hasbro, Mattel, Wizard of the Cost, HBO Asia dan Netflix',
             'visi_misi' => 'VISI :
@@ -36,7 +36,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'AstraIzuzu',
-            'logo_path' => 'img/astraizuzu.gif',
+            'logo_path' => 'img/perusahaan/astraizuzu.gif',
             'nama_perusahaan' => 'PT Astra International',
             'deskripsi_singkat' => 'PT. Astra International Tbk. – Isuzu Sales Operation atau biasa disebut Astra Isuzu merupakan jaringan jasa
 
@@ -48,7 +48,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'WarnaWarniMedia',
-            'logo_path' => 'img/warnawarni.png',
+            'logo_path' => 'img/perusahaan/warnawarni.png',
             'nama_perusahaan' => 'PT Warna Warni Media',
             'deskripsi_singkat' => '',
             'visi_misi' => '',
@@ -56,7 +56,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'wismilak',
-            'logo_path' => 'img/wismilak.jpeg',
+            'logo_path' => 'img/perusahaan/wismilak.jpeg',
             'nama_perusahaan' => 'PT Wismilak Inti Makmur Tbk',
             'deskripsi_singkat' => '',
             'visi_misi' => '',
@@ -64,7 +64,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'bca',
-            'logo_path' => 'img/bca.png',
+            'logo_path' => 'img/perusahaan/bca.png',
             'nama_perusahaan' => 'PT Bank Central Asia, Tbk',
             'deskripsi_singkat' => '',
             'visi_misi' => '',
@@ -72,7 +72,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'HotelCiputraWorld',
-            'logo_path' => 'img/hotelcw.png',
+            'logo_path' => 'img/perusahaan/hotelcw.png',
             'nama_perusahaan' => 'Hotel Ciputra World',
             'deskripsi_singkat' => '',
             'visi_misi' => '',
@@ -80,7 +80,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'platinum',
-            'logo_path' => 'img/platinum.png',
+            'logo_path' => 'img/perusahaan/platinum.png',
             'nama_perusahaan' => 'PT Platinum Ceramics Industry',
             'deskripsi_singkat' => '',
             'visi_misi' => '',
@@ -88,7 +88,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'ucmakassar',
-            'logo_path' => 'img/ucmakassar.png',
+            'logo_path' => 'img/perusahaan/ucmakassar.png',
             'nama_perusahaan' => 'UC Makassar',
             'deskripsi_singkat' => '',
             'visi_misi' => '',
@@ -96,8 +96,56 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'wings',
-            'logo_path' => 'img/wings.png',
+            'logo_path' => 'img/perusahaan/wings.png',
             'nama_perusahaan' => 'PT Wings Surya',
+            'deskripsi_singkat' => '',
+            'visi_misi' => '',
+            'website_resmi' => ''
+        ]);
+        DB::table('perusahaan')->insert([
+            'id_perusahaan' => 'marketingofficeciputra',
+            'logo_path' => 'img/perusahaan/marketingciputra.png',
+            'nama_perusahaan' => 'Marketing Office Ciputra',
+            'deskripsi_singkat' => '',
+            'visi_misi' => '',
+            'website_resmi' => ''
+        ]);
+        DB::table('perusahaan')->insert([
+            'id_perusahaan' => 'tancorp',
+            'logo_path' => 'img/perusahaan/tancorp.png',
+            'nama_perusahaan' => 'PT Tancorp Abadi Nusantara',
+            'deskripsi_singkat' => '',
+            'visi_misi' => '',
+            'website_resmi' => ''
+        ]);
+        DB::table('perusahaan')->insert([
+            'id_perusahaan' => 'mceasy',
+            'logo_path' => '',
+            'nama_perusahaan' => 'Mc Easy',
+            'deskripsi_singkat' => '',
+            'visi_misi' => '',
+            'website_resmi' => ''
+        ]);
+        DB::table('perusahaan')->insert([
+            'id_perusahaan' => 'siantartop',
+            'logo_path' => 'img/perusahaan/siantartop.jpeg',
+            'nama_perusahaan' => 'PT Siantar Top, Tbk',
+            'deskripsi_singkat' => '',
+            'visi_misi' => '',
+            'website_resmi' => ''
+        ]);
+        DB::table('perusahaan')->insert([
+            'id_perusahaan' => 'vitapharm',
+            'logo_path' => 'img/perusahaan/vitapharm.jpeg',
+            'nama_perusahaan' => 'PT Vitapharm',
+            'deskripsi_singkat' => '',
+            'visi_misi' => '',
+            'website_resmi' => ''
+        ]);
+        DB::table('perusahaan')->insert([
+            'id_perusahaan' => 'ucsurabaya',
+            'logo_path' => 'img/perusahaan/ucsurabaya.png',
+            'nama_perusahaan' => 'UC Surabaya',
             'deskripsi_singkat' => '',
             'visi_misi' => '',
             'website_resmi' => ''
