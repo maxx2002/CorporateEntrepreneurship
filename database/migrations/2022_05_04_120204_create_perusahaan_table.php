@@ -20,6 +20,7 @@ class CreatePerusahaanTable extends Migration
             $table->text('deskripsi_singkat');
             $table->text('visi_misi');
             $table->string('website_resmi');
+            $table->text('link_gdocs');
             $table->timestamps();
         });
     }

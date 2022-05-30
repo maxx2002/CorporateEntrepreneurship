@@ -7,23 +7,10 @@
 <div class="d-flex justify-content-center mt-5">
     <div class="mb-3" style="max-width: 60%;">
         <div class="row g-3">
-          <div class="col-md-4 pt-3">
+          <div class="pt-3">
             <img src="/{{$perusahaan->logo_path}}" class="img-fluid rounded-start" >
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h2 class="card-title">Deskripsi Singkat</h2>
-              <p class="card-text">{{$perusahaan->deskripsi_singkat}}</p>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">Visi & Misi</h2>
-              <p class="card-text">{{$perusahaan->visi_misi}}</p>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">Website Resmi</h2>
-              <p class="card-text">{{$perusahaan->website_resmi}}</p>
-            </div>
-          </div>
+          
         </div>
     </div>
     

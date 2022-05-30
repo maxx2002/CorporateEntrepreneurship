@@ -7,9 +7,7 @@
 <div id="myBtnContainer" class="row mx-0 row-cols-auto justify-content-center">
   <a class="btn m-2 px-2 rounded active hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('all')"> Show all</a>
   <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Full-time')"> Full-time</a>
-  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Part-time')"> Part-time</a>
   <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Internship')"> Internship</a>
-  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Freelance')"> Freelance</a>
 </div>
 <div class="row mx-0 p-lg-5 mx-lg-5 p-5">
     @foreach ($lowongan as $item)
@@ -23,7 +21,7 @@
               <h2 class="py-2">{{$item->nama_lowongan}}</h2>
                 <p class="pb-3">{{$item->perusahaan->nama_perusahaan}}</p>
                 <div class="row justify-content-center">
-                    <a href="#" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
+                    <a href="{{$item->perusahaan->link_gdocs}}" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
                     <a href="#" id="setmodal-persyaratan" class="btn px-2 rounded col m-2 hoverableborder" data-toggle="modal" data-target="#modal-persyaratan" style="background-color: #ffffff"
                     data-namalowongan="<?=$item->nama_lowongan?>"
                     data-daerah="<?=$item->daerah_penempatan?>"

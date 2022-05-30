@@ -12,7 +12,6 @@
       <ul class="dropdown-menu">
         <li><a class="dropdown-item text-dark fs-5" href="/companylist">Company List</a></li>
         <li><a class="dropdown-item text-dark fs-5" href="/jobvacancy">Job Vacancy</a></li>
-        <li><a class="dropdown-item text-dark fs-5" href="/scholarship">Scholarship Vacancy</a></li>
       </ul>
     </li>
     <li class="nav-item dropdown">
@@ -49,7 +48,6 @@
     <ul class="dropdown-menu">
       <li><a class="dropdown-item text-dark fs-6" href="/companylist">Company List</a></li>
       <li><a class="dropdown-item text-dark fs-6" href="/jobvacancy">Job Vacancy</a></li>
-      <li><a class="dropdown-item text-dark fs-6" href="/scholarship">Scholarship Vacancy</a></li>
     </ul>
   </li>
   <li class="nav-item dropdown">

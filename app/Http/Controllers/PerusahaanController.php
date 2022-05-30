@@ -10,7 +10,7 @@ use App\Models\Beasiswa;
 class PerusahaanController extends Controller
 {
     public function index(){
-        $perusahaan = Perusahaan::all();
+        $perusahaan = Perusahaan::orderBy('nama_perusahaan', 'ASC')->get();
 
         return view('companylist', compact('perusahaan'));
     }

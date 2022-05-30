@@ -72,5 +72,3 @@ Route::get('/jobvacancy', [LowonganController::class, 'index']);
 
 Route::get('/companylist', [PerusahaanController::class, 'index']);
 Route::get('/companylist/{id}', [PerusahaanController::class, 'company']);
-
-Route::get('/scholarship', [BeasiswaController::class, 'index']);

@@ -620,7 +620,7 @@ class LowonganSeeder extends Seeder
         ]);
         DB::table('lowongan')->insert([
             'perusahaan_id' => 'mceasy',
-            'nama_lowongan' => 'Web Programmer/Software Developer',
+            'nama_lowongan' => 'Web Programmer/ Software Developer',
             'bentuk_pekerjaan' => 'Full-time',
             'job_desk' => "<p>- Manage a team of high performing Software Engineer
             <br />- Give constructive and thoughtful feedback, nurturing, and create an inclusive environment where everyone can grow and do their best work

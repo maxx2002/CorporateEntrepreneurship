@@ -9,7 +9,7 @@
     <div class="col-lg-4 col-md-6">
         <div class="p-2 rounded text-center mx-2 my-5" style="width: 100%;">
             <div class="d-flex align-items-center justify-content-center" style="height: 200px">
-                <img class="img-fluid mb-5 h-100" src="{{$company->logo_path}}" />
+                <img class="img-fluid mb-5 mh-100" src="{{$company->logo_path}}" />
             </div>            
             <div class="card-body">
                 <h2 class="py-2 mb-4">{{$company->nama_perusahaan}}</h2>

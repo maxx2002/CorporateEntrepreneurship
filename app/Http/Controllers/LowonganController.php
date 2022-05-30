@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class LowonganController extends Controller
 {
     public function index(){
-        $lowongan = Lowongan::all();
+        $lowongan = Lowongan::orderBy('nama_lowongan', 'ASC')->get();
 
         return view('lowonganpekerjaan', compact('lowongan'));
     }
