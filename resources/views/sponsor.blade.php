@@ -10,7 +10,18 @@
 <h1 class="text-center my-5">SPONSORS</h1>
 
 <div class="justify-content-center flexhidden">
-  <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 90%">
+  <div class="row widthpersen2">
+    <div class="col">
+      <img src="img/sponsor/berkah.jpeg" alt="" style="width: 100%;">
+    </div>
+    <div class="col">
+      <img src="img/sponsor/surya.jpeg" alt="" style="width: 100%;">
+    </div>
+    <div class="col">
+      <img src="img/sponsor/indofood.jpg" alt="" style="width: 100%;">
+    </div>
+  </div>
+  {{-- <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 90%">
     <div class="d-flex justify-content-center">
       <div class="carousel-inner" style="width: 80%">            
         <div class="carousel-item active">        
@@ -63,7 +74,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div> --}}
 </div>
 
 <div class="justify-content-center hiddenflex">

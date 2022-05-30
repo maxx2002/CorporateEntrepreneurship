@@ -139,57 +139,41 @@
               <div class="" style="width: 100%;">
                     <img src="img/dummy.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h2 class="card-title text-center">Febrina Prisikila</h2>
+                      <p class="card-text text-center">Selama mengikuti Virtual Career
+                        Expo 1.0, saya bersyukur bisa
+                        mendapatkan banyak refrensi kerja
+                        yang sekira nya cocok dengan
+                        kemampuan saya. Selama
+                        mengikuti kegiatan tersebut saya
+                        banyak belajar juga bagaimana kita
+                        perlu membuat CV & Surat
+                        lamaran yg baik dan benar.
+                        Menurut saya ini adalah
+                        kesempatan yg bagus untuk kalian
+                        yang sedang mencari pekerjaan.
+                        Dari berbagai presentasi
+                        perusahaan ada, saya cukup
+                        tertarik untuk mencoba hal yang 
+                        baru.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
               <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
+                    <img src="img/testi/XavierMarks.webp" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h2 class="card-title text-center">Xavier Marks</h2>
+                      <p class="card-text text-center">Terima kasih banget buat Universitas Ciputra. Banyak banget rekanan yang hadir untuk apply ke kita dan brosur banyak yang telah habis.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
               <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
+                    <img src="img/testi/Wings.webp" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-          </div>  
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col">
-              <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-              <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-              <div class="" style="width: 100%;">
-                    <img src="img/dummy.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h2 class="card-title text-center">Nama</h2>
-                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h2 class="card-title text-center">Wings Group</h2>
+                      <p class="card-text text-center">Acara ini diluar ekpetasi kita dan rame banget. Yang mendaftar juga memiliki kualitas bagus juga. Para pendaftar yang cocok kualifikasi dengan kita sekitar 65% ada.</p>
                     </div>
                 </div>
             </div>
@@ -258,6 +242,19 @@
 <div class="mt-5">
     <h2 class="text-center mb-4">Sponsors</h2>
     <div class="justify-content-center flexhidden">
+      <div class="row widthpersen2">
+        <div class="col">
+          <img src="img/sponsor/berkah.jpeg" alt="" style="width: 100%;">
+        </div>
+        <div class="col">
+          <img src="img/sponsor/surya.jpeg" alt="" style="width: 100%;">
+        </div>
+        <div class="col">
+          <img src="img/sponsor/indofood.jpg" alt="" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+    {{-- <div class="justify-content-center flexhidden">
       <div id="carouselExampleControlss" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 90%">
         <div class="d-flex justify-content-center">
           <div class="carousel-inner" style="width: 80%">            
@@ -312,7 +309,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </div> --}}
 </div>
 <div class="mt-5">
     <h2 class="text-center mb-4">Media Partner</h2>
@@ -370,7 +367,7 @@
                 </div>
                 <div class="col">
                   <div class="d-flex align-items-center h-100">
-                    <img src="img/mp/surabaya.jpg" alt="" style="width: 100%;">
+                    <img src="" alt="" style="width: 100%;">
                   </div> 
                 </div>
               </div>  
