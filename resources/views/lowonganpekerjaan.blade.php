@@ -5,20 +5,43 @@
 @section('content')
 <h1 class="text-center my-5">JOB VACANCY</h1>
 <div id="myBtnContainer" class="row mx-0 row-cols-auto justify-content-center">
+  <div class="dropdown m-2 col p-0">
+    <a class="btn btn-secondary dropdown-toggle rounded text-black" style="background-color: #FF6E00" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Filter: Industri
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item btn" onclick="filterSelection('Advertisement')">Advertisement</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Art')">Art</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Automotif')">Automotif</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Banking')">Banking</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Consumer Goods')">Consumer Goods</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Food and Beverage')">Food and Beverage</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Education')">Education</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Financial Technology')">Financial Technology</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Hospitality')">Hospitality</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Insurance')">Insurance</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Logistic Transportation')">Logistic Transportation</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Manufacturing')">Manufacturing</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Printing')">Printing</a>
+      <a class="dropdown-item btn" onclick="filterSelection('Property')">Property</a>
+    </div>
+  </div>
   <a class="btn m-2 px-2 rounded active hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('all')"> Show all</a>
   <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Full-time')"> Full-time</a>
+  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Part-time')"> Part-time</a>
+  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Internship')"> Freelance</a>
   <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Internship')"> Internship</a>
 </div>
 <div class="row mx-0 p-lg-5 mx-lg-5 p-5">
     @foreach ($lowongan as $item)
-        <div class="col-lg-4 col-md-6 filterDiv {{$item->bentuk_pekerjaan}}">
-            <div class="p-5 rounded text-center mx-2 my-5" style="background-color: #FFF351">
+        <div class="col-lg-4 col-md-6 filterDiv {{$item->bentuk_pekerjaan}} @foreach($item->perusahaan->industri as $industry) {{$industry->industri_name}} @endforeach">
+            <div class="p-5 rounded text-center mx-2 my-5" style="background-color: #FFF351"> 
             <div class="mb-4">
               <a href="/companylist/{{$item->perusahaan->id_perusahaan}}">
                 <img src="{{$item->perusahaan->logo_path}}" class="img-fluid hoverableborder"/>
               </a>
             </div>  
-              <h2 class="py-2">{{$item->nama_lowongan}}</h2>
+              <h2 class="py-2 mt-3">{{$item->nama_lowongan}}</h2>
                 <p class="pb-3">{{$item->perusahaan->nama_perusahaan}}</p>
                 <div class="row justify-content-center">
                     <a href="{{$item->perusahaan->link_gdocs}}" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>

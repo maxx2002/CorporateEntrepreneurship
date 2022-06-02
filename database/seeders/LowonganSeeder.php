@@ -873,5 +873,451 @@ class LowonganSeeder extends Seeder
             'requirement' => "<p>- Wanita, usia 21 &ndash; 30 tahun<br />- Pendidikan minimal Strata 1 dari jurusan yang relevan<br />- Memiliki pengalaman di bidang yang relevan minimal 1 tahun (diutamakan berpengalaman di bidang Pendidikan)<br />- Menguasai MS Office, Google Suite, dan memahami dasar administrasi keuangan</p>",
             'daerah_penempatan' => 'Surabaya'
         ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'c+c&co',
+            'nama_lowongan' => 'Senior Designer',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Creation and production of artworks or photography sessions<br />- Open-mindedness in learning new skills that contributes to the<br />betterment of the team<br />- Producing meticulous and creative outcomes for the assigned<br />projects</p>',
+            'requirement' => '<p>- Minimum 3 &ndash; 5 year experience working in design agencies of<br />various disciplines ranging from digital imaging, illustrations,<br />branding, video and/or packaging<br />- Versatility in animation and moving image are preferred<br />- Degree qualifications in Design Communication / Motion Design<br />- Candidates with previous internships in any one of the<br />aforementioned fields are preferred<br />- Participate in managing and supervising timeline for the projects<br />- Estimating the time required to complete the work<br />- Open-mindedness in learning new skills that contributes to the<br />betterment of the team<br />- Work with the Senior members to develop learning programmes<br />- Producing meticulous and creative outcomes for the assigned<br />projects<br />- Familiarity with print and digital applications<br />- Critical thinking in design making<br />- Digital technology and innovations<br />- Understanding of the contemporary visual eye and focus on details<br />- Affinity for strategy, visual storytelling, visual design, and graphics<br />- Demonstrating illustrative skills with rough sketches and working on<br />layouts ready for print<br />- Knowledge and ability to work with a range of software such as<br />Adobe Photoshop, Illustrator, In-Design, XD, After Effects, Premiere<br />and other relevant/editing softwares<br />- Versatility in animation and moving image are preferred (After<br />Effects, Premiere Pro, Spark AR)<br />- Cloud computing software<br />- Synthesis and evaluation of user-centred design principles<br />- Creation and proposals for a simple and elegant design approach to<br />design problems<br />- Development of the art direction and production responsibilities<br />- Leading for Image-making responsibilities and production<br />- Proofreading to produce accurate and high-quality work<br />- Presenting finalised ideas and concepts to clients or account<br />managers<br />- Meeting clients or account managers to discuss the business<br />objectives and requirements of the job<br />- Working as part of a team with printers, copywriters, photographers,<br />stylists, illustrators, other designers, account executives, web<br />developers and marketing specialists<br />- Articulate, good communication skills both verbal-nonverbal in<br />Bahasa and English<br />- Travel as of where and when needed for the jobs</p>',
+            'daerah_penempatan' => '<p>Surabaya, Indonesia</p>'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'komunal',
+            'nama_lowongan' => 'Back End Developer (NodeJS)',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Design and implementation of low-latency, high-availability, and performant applications<br />- Work closely with the development and project management teams to accomplish the technical requirements.<br />- Identify, troubleshoot and resolve development issues<br />- Write clean and maintainable code that is properly tested and reviewed</p>',
+            'requirement' => '<p>- A degree in computer engineering or computer science or related is preferred<br />- Having a minimum of 1-year experience writing back-end code using NodeJS<br />- Proficient understanding of code versioning tools, such as Git<br />- Strong understanding of MVC design patterns and microservice architectures<br />- Have a passion for working in a Startup and building an impactful application<br />- Can work individually or in a team in an Agile environment</p>',
+            'daerah_penempatan' => '-'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'komunal',
+            'nama_lowongan' => 'Application Support Engineer',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Provide technical support for enterprise-level application systems.<br />- Respond to general questions and trouble tickets promptly.<br />- Research, diagnose, troubleshoot, and identify potential solutions for how to resolve an issue.<br />- Document actionable bugs for engineering resolution.</p>',
+            'requirement' => '<p>- Bachelor&rsquo;s degree in computer engineering or computer science or related is preferred<br />- Having a minimum of 1 year of experience as IT Support/ Technical Support<br />- Good analytical, problem-solving skills and good attention to detail<br />- Proficient in programming language especially nodeJS and database concepts such as SQL Server and<br />MongoDB.</p>',
+            'daerah_penempatan' => '-'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'komunal',
+            'nama_lowongan' => 'QA Automation Tester',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => "<p>- Develop and execute automated test scripts<br />- Record problems and issues following the project's problem and issue management plans.<br />- Work with the application team to resolve any issues arising from the testing process.<br />- Participate in the release control process (when the application is transferred from the build team to the test<br />team) to ensure that solutions meet business requirements.<br />- Validate fixes.</p>",
+            'requirement' => '<p>- Bachelor&rsquo;s degree in computer engineering or computer science is preferred<br />- Previous experience as IT Quality Assurance, Testing (User Acceptance Testing), and Automation<br />- Working knowledge of automation testing tools (Cypres is prefered)<br />- Proficient in at least one programming language and database management to be able to understand and communicate effectively with the developer team</p>',
+            'daerah_penempatan' => '-'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'komunal',
+            'nama_lowongan' => 'UI UX Designer',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Works closely with UX leadership in utilizing industry standard design tools to create user interfaces, customer interactions, and interactive prototypes.<br />- Gather and evaluate user requirements in collaboration with product managers and engineers<br />- Assist in executing all UI / UX design stages from concept to final hand-off to engineering<br />- Develop UI mockups and prototypes that clearly illustrate how sites function and look like</p>',
+            'requirement' => '<p>- Preferably a candidate who has a background in IT/Design and have an adequate understanding of UI/UX Design,<br />- Fresh Graduates from uni / bootcamp are welcome to apply,<br />- Have a good skill on illustration will be a plus<br />- Creative, good sense of design layout, design trends, and typography<br />- Having portfolios of previous UI UX design is a must</p>',
+            'daerah_penempatan' => '-'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'komunal',
+            'nama_lowongan' => 'Digital Marketing Specialist',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Design all digital marketing strategies and activities<br />- Execute the projects (promotions, activities, campaigns, etc)<br />- Measure, analyze, and report the performance/result of the projects, then consider how to improve<br />- Work hand-in-hand with the team member and the vendors to execute the projects more efficient</p>',
+            'requirement' => '<p>- Good understanding of digital marketing metrics and tools<br />- 1+ years experience of working in the advertisement agency<br />- Knowledge of paid ads and its dashboard (Google Adwords &amp; Facebook Ads)<br />- In-depth understanding of SEM campaign strategies and SEO practices</p>',
+            'daerah_penempatan' => '-'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'komunal',
+            'nama_lowongan' => 'Marketing Communication Specialist',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Involve in ideation/creation of influencer campaign in acquiring &amp; maintaining KOL/influencers/BA<br />- Selecting, dealing, arranging a meeting, and reminding each account to execute the campaign<br />- Analyze &amp; Manage overall KOLs network performance<br />- Build influencers database<br />- To create engaging social media content<br />- Design for Communications, marketing tools, and promotion of products<br />- Maintain relationships with other relevant third parties and media</p>',
+            'requirement' => "<p>- Bachelor's degree in communication-related major<br />- Interested in working as influencer management or KOL Management<br />- Ability to work under pressure and deadlines<br />- Must have a positive attitude, creative, proactive, and fast, learner<br />- Understanding P2P and rural banking (BPR) business is a must<br />- Advanced communication and interpersonal skills</p>",
+            'daerah_penempatan' => '-'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'komunal',
+            'nama_lowongan' => 'Developer Intern',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Design and implementation of low-latency, high-availability, and performant applications<br />- Work closely with the development and project management teams to accomplish the technical requirements.<br />- Write clean and maintainable code that is properly tested and reviewed</p>',
+            'requirement' => '<p>- Last year student pursuing a degree in Information Engineering, Informations System, or related IT Major.<br />- Passionate about coding and programming, innovation, and solving challenging problems.<br />- Has good knowledge of Object-Oriented Programming<br />- Familiar with at least one server-side scripting language (preferably nodeJS)<br />- Able to do 6 months internship (full Monday-Friday)</p>',
+            'daerah_penempatan' => '-'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Senior Associate Financial Consultant',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Melakukan aktivitas penjualan produk<br />- Melakukan aktifitas perekrutan dan monitoring calon Financial Consultant</p>',
+            'requirement' => '<p>- Pendidikan terakhir min. D3/S1<br />- Usia 25-40 tahun<br />- Memiliki pengalaman bekerja min. 3 tahun dengan penghasilan min. Rp 9.000.000,- <br />- Diutamakan yang pernah berwirausaha, bekerja di sektor marketing, perbankan dan Human Resources </p>',
+            'daerah_penempatan' => 'Jakarta, Medan, Bandung, Bali, Surabaya, Batam'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Associate Financial Consultant',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mengikuti program pelatihan selama 12 bulan yang dilakukan secara online dan juga on-site di Surabaya<br />- Melakukan aktivitas penjualan produk<br />- Melakukan aktivitas perekrutan dan monitoring calon Financial Consultant</p>',
+            'requirement' =>'<p>- Pendidikan terakhir min. D3/S1<br />- Usia 25-40 tahun<br />- Memiliki pengalaman bekerja min. 3 tahun  dengan penghasilan min. Rp 5.000.000,- <br />-Diutamakan yang pernah berwirausaha, bekerja di sektor marketing, perbankan dan Human Resources </p>',
+            'daerah_penempatan' => 'Jakarta, Medan, Bandung, Bali, Surabaya, Batam'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Financial Consultant',
+            'bentuk_pekerjaan' => 'Part-time',
+            'job_desk' => '<p>- Melakukan aktivitas penjualan produk<br />- Melakukan aktivitas perekrutan dan monitoring calon <br />- Mengikuti pelatihan</p>',
+            'requirement' =>'<p>- Pendidikan terakhir min. SMA atau sederajat<br />-Maks. Usia 55 tahun</p>',
+            'daerah_penempatan' => 'Dapat bekerja secara mobile'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Semua Divisi Tentative',
+            'bentuk_pekerjaan' => 'Freelance',
+            'job_desk' => '<p>- Tentative </p>',
+            'requirement' =>'<p>- Usia min. 17 th.<br />-Usia maks. 60 th.</p>',
+            'daerah_penempatan' => 'Seluruh Indonesia'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Trainer/Pelatih',
+            'bentuk_pekerjaan' => 'Internship',
+            'job_desk' => '<p>- Melakukan aktivitas mengajar para Financial Consultant seputar product knowledge, pengembangan karakter dan pengembangan tim </p>',
+            'requirement' =>'<p>-Diutamakan yang memiliki pendidikan atau ahli dalam bidang marketing, public speaking, communication atau sejenisnya<br />-Diutamakan yang berdomisili di Surabaya</p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Financial Consultant',
+            'bentuk_pekerjaan' => 'Internship',
+            'job_desk' => '<p>- Melakukan aktifitas penjualan produk<br />- Melakukan aktifitas perekrutan dan monitoring calon Financial Consultant </p>',
+            'requirement' =>'<p>- Sehat secara jasmani dan rohani </p>',
+            'daerah_penempatan' => 'Dapat bekerja secara mobile'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Administrative Staff',
+            'bentuk_pekerjaan' => 'Internship',
+            'job_desk' => '<p>- Melakukan aktifitas administratif perusahaan </p>',
+            'requirement' =>'<p>- Diutamakan yang memiliki pendidikan manajemen, ekonomi dan sejenisnya<br />- Diutamakan yang berdomisili di Surabaya </p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Tentative',
+            'bentuk_pekerjaan' => 'Scholarship',
+            'job_desk' => '<p>- Tentative </p>',
+            'requirement' =>'<p>- Telah bekerja selama min. 2 tahun </p>',
+            'daerah_penempatan' => 'Seluruh Indonesia'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'orangtua',
+            'nama_lowongan' => 'Accounting Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Melakukan cocokan omset dan monitoring piutang<br />- Melakukan cocokan gaji<br />- Melakukan penginputan voucher<br />- Rekonsiliasi bank dan cocokan aset<br />- Melakukan cocokan piutang dan penginputan invoice</p>',
+            'requirement' => '<p>- Minimal S1 Akuntansi (IPK min. 3.00)<br />- Usia 22 &ndash; 25 tahun<br />- Terbuka untuk Fresh Graduates<br />- Teliti, Cekatan &amp; Tekun <br />- Bersedia ditempatkan di Jakarta Barat</p>',
+            'daerah_penempatan' => 'Jakarta Barat'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'orangtua',
+            'nama_lowongan' => 'Logistic Accounting Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mengecek kelengkapan dokumen dari ekspedisi<br />- Menginput tagihan yang diterima dari ekspedisi ke dalam sistem<br />- Membuat tagihan ke distributor</p>',
+            'requirement' => '<p>- Minimal S1 Akuntansi (IPK min. 3.00)<br />- Usia 22 &ndash; 25 tahun<br />- Terbuka untuk Fresh Graduates<br />- Teliti, Cekatan &amp; Tekun <br />- Bersedia ditempatkan di Jakarta Barat</p>',
+            'daerah_penempatan' => 'Jakarta Barat'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'orangtua',
+            'nama_lowongan' => 'Costing Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Melakukan stock opname<br />- Verifikasi dokumen pendukung data persediaan<br />- Melakukan proses costing (Inventory pabrik &amp; pengecekan biaya pabrik)<br />- Mengecek dan monitor pengalokasian biaya pabrik serta penentuan komponen COGM</p>',
+            'requirement' => '<p>- Minimal S1 Akuntansi (IPK min. 3.00)<br />- Usia 22 &ndash; 25 tahun<br />- Terbuka untuk Fresh Graduates<br />- Teliti, Cekatan &amp; Tekun <br />- Bersedia ditempatkan di Jakarta Barat</p>',
+            'daerah_penempatan' => 'Jakarta Barat'
+        ]);
+
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'orangtua',
+            'nama_lowongan' => 'Account Receivable Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Melakukan pencocokan omset<br />- Melakukan penagihan<br />- Membuat invoice<br />- Memproses tagihan</p>',
+            'requirement' => '<p>- Minimal S1 Akuntansi (IPK min. 3.00)<br />- Usia 22 &ndash; 25 tahun<br />- Terbuka untuk Fresh Graduates<br />- Teliti, Cekatan &amp; Tekun <br />- Bersedia ditempatkan di Jakarta Barat</p>',
+            'daerah_penempatan' => 'Jakarta Barat'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'orangtua',
+            'nama_lowongan' => 'Internal Control Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mereview dan memastikan penerapan prosedur (SOP, IK, Form, dll)<br />- Melakukan sosialisasi seluruh prosedur<br />- Melakukan audit kepatuhan (compliance) terhadap prosedur yang berlaku dan melakukan review terhadap laporan audit kepatuhan (compliance)<br />- Melakukan pemeriksaan terhadap proses bisnis untuk meningkatkan kontrol dan meminimalisasi resiko yang ada<br />- Melakukan pengembangan sistem untuk meningkatkan efisiensi kerja</p>',
+            'requirement' => '<p>- Minimal S1 Akuntansi (IPK min. 3.00)<br />- Usia 22 &ndash; 25 tahun<br />- Terbuka untuk Fresh Graduates<br />- Teliti, Cekatan &amp; Tekun <br />- Bersedia ditempatkan di Jakarta Barat</p>',
+            'daerah_penempatan' => 'Jakarta Barat'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'orangtua',
+            'nama_lowongan' => 'Analis QC',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Melakukan supervisi hasil pengecekan kualitas oleh QC Lapang<br />- Melakukan supervisi pengaturan kerja QC Lapang oleh Shift Leader<br />- Memastikan parameter produksi dilakukan sesuai prosedur yang berlaku<br />- Melakukan koordinasi dengan Section Manager QC terkait isu-isu kualitas</p>',
+            'requirement' => '<p>- Minimal S1 Teknologi Pangan (IPK min. 3.00)<br />- Usia 22 &ndash; 27 tahun<br />- Terbuka untuk Fresh Graduates<br />- Teliti, Cekatan &amp; Tekun <br />- Bersedia ditempatkan di Caringin, Bogor</p>',
+            'daerah_penempatan' => 'Caringin, Bogor'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'Customer Engagement Associate',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Menyusun dan mengolah data base<br />- Melakukan market analisis<br />- Melakukan sales call dan visit sesuai dengan target market<br />- Melakukan presentasi produk jasa kepada klien.<br />- Menyiapkan dan mem-follow up penawaran.<br />- Melakukan Survei Client Satisfaction.<br />- Mengatasi komplain klien terkait jasa yang digunakan</p>',
+            'requirement' => '<p>- Min. D3 semua jurusan, diutamakan background Manajemen Pemasaran<br />- Pengalaman min. 2 tahun di bidang Sales/Marketing Jasa<br />- Terbiasa melakukan presentasi baik offline maupun virtual<br />- Target oriented, relasi luas, terbiasa mobile<br />- Memahami sistem tender menjadi nilai tambah<br />- Terbiasa dengan Ms. Office, email, aplikasi video conference</p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'Digital Marketing',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>Melakukan aktivitas pemasaran jasa konsultan melalui website, sosial media, online market serta mengelola website dan media sosial perusahaan.</p>',
+            'requirement' => '<p>- Min SMK/D3 Pemasaran dengan pengalaman minimal 1 tahun di bidang digital marketing.<br />- Menguasai pemasaran melalui digital (SEO, SEM, Google Ads, IC Ads,<br />FB Ads)<br />- Memahami Tiktok Ads menjadi nilai tambah<br />- Mampu membuat strategi pemasaran digital<br />- Mampu bekerja dalam team maupun individu</p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'Finance, Accounting, and Tax Manager',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Membuat dan melaporkan laporan keuangan perusahaan(L/R, Neraca, dil) kepada Direksi<br />- Membuat dan melaporkan laporan pajak perusahaan (PPH Badan, PPN, dIl) kepada Direksi<br />- Membuat strategi pengelolaan keuangan perusahaan<br />- Melakukan praktik legal terkait keuangan<br />- Membuat planning cost perusahaan bulanan dan tahuan<br />- Memonitor pekerjaan divisi Finance, Accounting &amp; Tax</p>',
+            'requirement' => '<p>- Pendidikan min. S1 Akuntansi (Perpajakan)<br />- Usia maks. 40 tahun<br />- Pengalaman min. 8 tahun sebagai Manager Finance, Accounting &amp; Tax<br />- Diutamakan mempunyai pengalaman sejenis di industri perkayuan, shipping atau mining company<br />- Diutamakan mempunyai pengalaman RESTITUSI PAJAK (EKSPOR)<br />- Mempunyai sertifikat Brevet A &amp; B<br />- Berpengalaman mengurus izin usaha industri primer hasil hutan kayu (lUIPHHK) dan ekspor hasil hutan kayu<br />- Menguasai strategi pengelolaan keuangan, pembuatan laporan keuangan, laba rugi, aspek perpajakan terkait<br />- Mahir menggunakan Ms. Office<br />- Memiliki daya analisis kuat, teliti, komunikatif, kooperatif dan terbiasa bekerja dengan deadline, fast learner</p>',
+            'daerah_penempatan' => 'Jakarta Utara'
+        ]);
+
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'HR Consultant',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Membuat strategi marketing untuk bisa mengikuti perkembangan pasar dan kompetitor<br />- Memberikan presentasi Company Profile dan product knowledge kepada new customer<br />- Melakukan tugas lain yang ditetapkan Pimpinan sehubungan dengan fungsi Sales Supervisor<br />- Menyusun perencanaan kebijakan pemasaran secara administrasi maupun proses<br />- Mengimplementasikan strategi marketing dalam memasarkan product<br />- Mengkoordinasikan target pemasaran kepada tim marketing<br />- Menciptakan, menumbuhkan, dan memelihara kerja sama yang baik dengan konsumen<br />- Membuat target kerja dan mengajukan kepada Pimpinan terkait<br />- Membuat penawaran harga dan kerjasama penjualan<br />- Handling Complain dari customer dan mengkoordinasikan dengan tim<br />- Mengimplementasikan planing penjualan dengan sasaran yang tepat<br />- Membantu Penagihan invoice atau kredit macet dari customer<br />- Melakukan analisa pasar mengenai kebutuhan pasar</p>',
+            'requirement' => '<p>- Min D1 hingga S1 Management, Publict Relation, Marketing management dll<br />- Usia Max 35 th (Laki-Laki / Perempuan)<br />- Berpengalaman dibidang yang sama min 1-3 tahun B2B, maupun B2C<br />- Lebih disukai berpengalaman dibidang Label/Kertas<br />- Menguasai Media Presentasi Ms Office mahir<br />- Memiliki Sim A (wajib)<br />- Bersedia bekerja mobile di lapangan untuk mencari customer<br />- Memahami pangsa pasar untuk produk kertas<br />- Berpenampilan menarik dan memiliki orientasi terhadap target</p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'Senior Sales Executive',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Memahami dan dapat menjelaskan product knowledge kepada customer<br />- Memenuhi target yang diberikan<br />- Membuat list calon customer untuk Visit &amp; Follow up customer dan Menghubungi customer secara berkala<br />- Melakukan kegiatan promosi product<br />- Membuat list data base customer (toko, end user dan bisnis percetakan)<br />- Melakukan pengajuan penawaran melalui email / penawaran secara langsung<br />- Melakukan penjualan sesuai dengan permintaan pasar<br />- Melakukan planing pemetaan wilayah pasar<br />- Membuat timeline proses prospect customer</p>',
+            'requirement' => '<p>- Min D1 hingga S1 Management, Public Relation, Marketing management dIl<br />- Usia Max 35 th<br />- Berpengalaman dibidang yang sama min 2-3 tahun B2B, maupun B2C<br />- Lebih disukai berpengalaman dibidang Label/Kertas<br />- Energik, memiliki komunikasi yang baik dan lancar<br />- Memiliki Sim A / C dan memiliki kendaraan pribadi<br />- Bersedia bekerja mobile di lapangan untuk mencari customer<br />- Memahami pangsa pasar untuk produk kertas</p>',
+            'daerah_penempatan' => '-'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'Customer Engagement Associate',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Menyusun dan mengolah data base<br />- Melakukan market analisis<br />- Melakukan sales call dan visit sesuai dengan target market<br />- Melakukan presentasi produk jasa kepada klien.<br />- Menyiapkan dan mem-follow up penawaran.<br />- Melakukan Survei Client Satisfaction.<br />- Mengatasi komplain klien terkait jasa yang digunakan</p>',
+            'requirement' => '<p>- Min. D3 semua jurusan, diutamakan background Manajemen Pemasaran<br />- Pengalaman min. 2 tahun di bidang Sales/Marketing Jasa<br />- Terbiasa melakukan presentasi baik offline maupun virtual<br />- Target oriented, relasi luas, terbiasa mobile<br />- Memahami sistem tender menjadi nilai tambah<br />- Terbiasa dengan Ms. Office, email, aplikasi video conference</p>',
+            'daerah_penempatan' => 'Caringin, Bogor'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'Senior Tax Accounting',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Membuat dan melaporkan laporan perpajakan perusahaan kepada Manager Finance, Accounting &amp; Tax<br />- Menjalankan dan melaporkan restitusi pajak perusahaan kepada Manager Finance, Accounting &amp; Tax<br />- Membuat dan melaporkan laporan keuangan perusahaan (PSAK, Neraca, Jurnal dil) kepada<br />- Manager Finance, Accounting &amp; Tax<br />- Melakukan praktik legal terkait keuangan<br />- Memonitor pekerjaan divisi Tax Accounting</p>',
+            'requirement' => '<p>- Pendidikan min. S1 Akuntansi (Perpajakan), maks. 35 tahun<br />- Pengalaman min. 5 tahun dibidang Tax Accounting<br />- Diutamakan mempunyai pengalaman sejenis di industri perkayuan, shipping atau mining company<br />- Diutamakan mempunyai pengalaman RESTITUSI PAJAK (EKSPOR)<br />- Mempunyai sertifikat Brevet A &amp; B<br />- Menguasai strategi pengelolaan keuangan, pembuatan laporan keuangan, laba rugi dan aspek Perpajakan terkait<br />- Mahir menggunakan Ms. Office<br />- Memiliki daya analisis kuat, teliti, komunikatif, kooperatif, fast learner dan terbiasa bekerja dengan deadline</p>',
+            'daerah_penempatan' => 'Gresik'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'magnetsolusiintegra',
+            'nama_lowongan' => 'Supervisor Cost Accounting',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Membuat laporan keuangan dan rincian laporan keuangan transaksi kebutuhan proses produksi<br />- Memonitor harian dan bulanan laporan produksi<br />- Menghitung, membuat jurnal dan laporan produksi meliputi proses kerja dan menghitung cost bahan baku<br />- Membuat rekapitulasi dan laporan jumlah serua stok yang ada di gudang<br />- Melakukan stock opname paling sedikit satu bulan sekali atau situasional<br />- Memonitoring jadwal produksi dan memastikan produksi berjalan lancar sesuai jadwal<br />- Berkoordinasi dengan divisi lain untuk administrasi produksi<br />- Melakukan analisa costing &amp; melakukan improvement<br />- Membuat rekapitulasi data-data pendukung laporan keuangan yang berhubungan dengan Cost Factory</p>',
+            'requirement' => '<p>- Pendidikan minimal Si, diutamakan dari jurusan Akuntansi<br />- Memiliki minimal 2 - 3 tahun pengalaman kerja di Cost Accounting<br />- Mengerti Akuntansi Biaya pada perusahaan manufaktur<br />- Menguasai Ms. Office dan Jurnal Transaksi.<br />- Memiliki kemampuan komunikasi dan numerik yang baik<br />- Pekerja keras dan mampu bekerja dengan deadline<br />- Mampu bekerjasama dengan tim dan individu<br />- Jujur dan memiliki tanggung jawab terhadap pekerjaan<br />- Menguasai Bahasa Mandarin (menjadi nilai tambah)</p>',
+            'daerah_penempatan' => 'Surabaya Selatan'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'xaviermarks',
+            'nama_lowongan' => 'eXpert Advisor',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />-Rekrut Agen untuk membentuk sebuah tim.<br />-FLEXIBLE TIME!</p>',
+            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />-High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
+            'daerah_penempatan' => 'Surabaya, Jakarta, Tangerang, Sidoarjo, Malang, Jember, Bandung, Bekasi, Kalimantan Barat, Semarang, Solo, Denpasar, Banyuwangi, dsb'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'xaviermarks',
+            'nama_lowongan' => 'eXpert Advisor',
+            'bentuk_pekerjaan' => 'Part-time',
+            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />-Rekrut Agen untuk membentuk sebuah tim.<br />-FLEXIBLE TIME!</p>',
+            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />-High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
+            'daerah_penempatan' => 'Surabaya, Jakarta, Tangerang, Sidoarjo, Malang, Jember, Bandung, Bekasi, Kalimantan Barat, Semarang, Solo, Denpasar, Banyuwangi, dsb'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'xaviermarks',
+            'nama_lowongan' => 'eXpert Advisor',
+            'bentuk_pekerjaan' => 'Freelance',
+            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />-Rekrut Agen untuk membentuk sebuah tim.<br />-FLEXIBLE TIME!</p>',
+            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />-High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
+            'daerah_penempatan' => 'Surabaya, Jakarta, Tangerang, Sidoarjo, Malang, Jember, Bandung, Bekasi, Kalimantan Barat, Semarang, Solo, Denpasar, Banyuwangi, dsb'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'xaviermarks',
+            'nama_lowongan' => 'eXpert Advisor',
+            'bentuk_pekerjaan' => 'Internship',
+            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />-Rekrut Agen untuk membentuk sebuah tim.<br />-FLEXIBLE TIME!</p>',
+            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />-High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
+            'daerah_penempatan' => 'Surabaya, Jakarta, Tangerang, Sidoarjo, Malang, Jember, Bandung, Bekasi, Kalimantan Barat, Semarang, Solo, Denpasar, Banyuwangi, dsb'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'ciptaoggifurindo',
+            'nama_lowongan' => 'Admin PPIC',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- - </p>',
+            'requirement' => '<p>- Pendidikan Minimal S1 Teknik Industri; <br />- Memiliki Pengalaman di bidangnya / fresh graduate diperbolehkan melamar; <br />- Memahami Production Process Planing & Control; <br />- Memahami Material Requirement Planing; <br />- Memahami Supply Chain Management; <br />- Memiliki Etos Kerja yang tinggi; <br />- Jujur & Bertanggung Jawab.</p>',
+            'daerah_penempatan' => 'Mojokerto'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'ciptaoggifurindo',
+            'nama_lowongan' => 'Sales',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Bertanggung jawab dalam proses perencanaan dan penyusunan strategi pencapaian target penjualan; <br />- Bertanggung jawab dalam pencapaian target penjualan pada area kerjanya serta mendukung tercapainya target  penjualan secara keseluruhan; <br />- Bertanggung jawab dalam melakukan kontak dan kunjungan ke pelanggan sesuai dengan perencanaan dan ketentuan yang berlaku; <br />-  Bertanggung jawab dalam handling komplain customer <br />- Bertanggung jawab dalam pengelolaan piutang customer; <br />- Bertanggung jawab dalam pencapaian target pertumbuhan customer </p>',
+            'requirement' => '<p>- Pendidikan minimal D3, Usia max 35 tahun; <br />- Memiliki pengalaman kerja min. 3 tahun pada posisi yang setara; <br />- Memiliki kendaraan  sendiri dan SIM A/C; <br />- Bersedia melaksanakan perjalanan dinas ke luar kota; <br />- Memiliki etos kerja yang baik dan siap bekerja dengan sistem target; <br />- Mampu bekerjasama dalam tim, aktif, dan dinamis; <br />- Jujur, bersemangat, pantang menyerah, dan bertanggung jawab; <br />- Mempunyai kemampuan berkomunikasi yang baik </p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'ciptaoggifurindo',
+            'nama_lowongan' => 'Drafter',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Membuat Shopdrawing <br />- Membuat Assembly Instruction </p>',
+            'requirement' => '<p>- Pendidikan S1 Arsitektur/Teknik Sipil <br />- Menguasai program autocad (2D), inventory dan solidwork <br />- Memiliki pengalaman sebagai drafter minimal 2 tahun (dibidang manufacture lebih diutamakan) <br />- Mampu membuat dan membaca gambar kerja dengan baik <br />- Memiliki kemampuan  problem solving yang baik <br />- Teliti, Gigih </p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'ciptaoggifurindo',
+            'nama_lowongan' => 'Product Designer',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mengembangkan produk baru atau meningkatkan yang sudah ada dengan menggunakan pemahaman di bidang teknologi, material, dan metode manufaktur untuk memperbaiki desain dan manfaat produk. <br />- Meneliti bahan, proses atau kebutuhan pasar <br />- Mengembangkanmedia promosi untuk kebutuhan marketing <br />- Membuat sketsa ide desain awal <br />- Memproduksi gambar final dan spesifikasi menggunakan tangan atau software komputer (CAD) </p>',
+            'requirement' => '<p>- Pendidikan Minimum S1 Product  Design / Industrial Design / Graphic Design <br />- Pengalaman 1 tahun  di bidang yang sama <br />- Usia maksimal 30 tahun <br />- Memahami ilmu grafis, layouting dan cetak digital / offset <br />- Dapat mengoperasikan AUTOCAD, Sketchup, Corel Draw, Photoshop, Photography dan Software Design Product Lainnya <br />- Memiliki ketertarikan terhadap desain furniture <br />- Jujur, bersemangat dan bertanggung jawab <br />- Kreatif memiliki referensi yang baik, komunikasi dan mampu bekerja dalam tim </p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Graphic Designer',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Membuat content berupa foto dan video untuk kepentingan marketing online dan offline<br />- Mengkomunikasikan pesan, referensi, dan ide melalui desain-desain yang kreatif dan sesuai dengan key visual (KV)<br />- Melakukan digital imaging dari foto mentah menjadi bentuk desain kreatif<br />- Berkolaborasi dengan team marketing untuk meningkatkan brand image</p>',
+            'requirement' => '<p>- Pendidikan minimal S1, lebih disukai dari jurusan DKV / Desain Produk / Desain Interior<br />- Pengalaman kerja minimal 1 tahun di bidang yang relevan, freshgraduate dipersilakan melamar<br />- Usia maksimal 28 tahun<br />- Menguasai software grafis <br />- Menguasai Software Desain 3D menjadi nilai tambah<br />- Menguasai software editing video (Adobe Premier, After Effect) menjadi nilai tambah<br />- Memahami dan menguasai Social Media Analyst<br />- Portofolio desain wajib dilampirkan</p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Accounting Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mengimplementasikan penggunaan Accounting Software System<br />- Mengimplementasikan sistem dan policy akuntansi di perusahaan<br />- Menyusun laporan keuangan perusahaan sesuai dengan standar akuntansi yang ada<br />- Menyusun laporan-laporan yang digunakan untuk kepentingan perpajakan<br />- Berkoordinasi dengan unit-unit terkait laporan keuangan yang masuk.</p>',
+            'requirement' => '<p>- Pendidikan minimal S1 Akuntansi, minimal IPK 3.00<br />- Fresh Graduate dipersilakan melamar.<br />- Memahami sistem kerja akuntansi dan perpajakan<br />- Memiliki pengalaman kerja di KAP menjadi nilai tambah<br />- Lebih disukai memiliki sertifikasi Brevet A dan B<br />- Menguasai Microsoft Office<br />- Memiliki SIM A / SIM C<br />- Bersedia melakukan perjalanan dinas luar kota<br />- Usia maksimal 28 tahun</p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Recruitment Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Melaksanakan proses rekrutmen karyawan dari awal hingga akhir untuk memenuhi kebutuhan tenaga kerja sesuai dengan SOP<br />- Mencari kandidat karyawan, menyotir, dan menyeleksi surat lamaran, dan melakukan psikotes.<br />- Koordinasi dengan user untuk proses seleksi di tahap selanjutnya<br />- Melakukan tugas administratif yang berhubungan dengan rekrutmen.</p>',
+            'requirement' => '<p>- Pendidikan minimal S1 Psikologi<br />- Pengalaman kerja min. 2 tahun sebagai Recruitment Staff<br />- Familiar dan menguasai administrasi berbagai macam alat tes psikologi<br />- Memahami teknik interview berbasis BEI<br />- Memiliki kemampuan komunikasi dan negosiasi yang baik<br />- Terorganisir dan berorientasi pada detail<br />- Bersedia melakukan perjalanan dinas ke luar kota</p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Social Media Specialist',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mencari referensi konten sehingga menghasilkan strategi brand communication yang efektif<br />- Meningkatkan engagement user-brand di media social<br />- Menjadwalkan posting social media secara bulanan dan mengalokasikan permintaan posting dari divisi lain<br />- Mengunggah konten dan membuat caption sesuai jadwal<br />- Menjawab comment / DM di media social<br />- Mendistribusikan powerful content ke offline distributor<br />- Proaktif menganalisa dan melaporkan hasil insight social media dari brand dan kompetitor</p>',
+            'requirement' => '<p>- Pendidikan Minimal S1 dari jurusan yang relevan<br />- Pengalaman Minimal 1 tahun sebagai Social Media Specialist atau Digital Marketing<br />- Mampu menganalisa insight dan trend di media sosial (Instagram, Tiktok, Facebook)<br />- Mengerti dasar Copywriting, Adobe Photoshop dan Ai<br />- Memiliki passion di dunia media sosial, influencer, hingga E-commerce<br />- Mampu bekerja dalam tim</p>',
+          'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Purchasing Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Menerima dan melakukan review surat permintaan barang dari seluruh bagian baik harian mingguan maupun bulanan.<br />- Melakukan seleksi terhadap supplier mengenai perbandingan penawaran harga, ketersediaan barang, kecepatan pengiriman serta kualitas<br />- Melakukan proses pembelian dari mulai permohonan, penawaran harga, penyiapan kelengkapan administrasi sampai kepada pengontrolan ketepatan kedatangan barang dari supllier serta aktif dalam monitoring stock<br />- Koordinasi dengan pihak internal dan eksternal</p>',
+            'requirement' => '<p>- Pendidikan minimal S1 segala jurusan, diutamakan Teknik Industri dan Teknik Mesin<br />- Pengalaman minimal 2 tahun sebagai Purchasing Staff, diutamakan yang berpengalaman menangani pembelian mesin-mesin produksi dan sparepart - - Springbed &amp; Foam<br />- Menguasai bahasa Inggris (Aktif) dan bahasa Mandarin sebagai point plus<br />- Usia maksimal 30 tahun<br />- Memiliki inisiatif tinggi, kemampuan taktis, dan koordinasi dengan pihak internal maupun eksternal<br />- Memiliki kemampuan negosiasi dan persuasi yang baik<br />- Bersedia untuk melakukan perjalanan dinas (bila diperlukan)</p>',
+          'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Programmer',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Melakukan riset dan menganalisa kebutuhan internal perusahaan dari sistem yang dikembangkan dan perkembangan teknologi di luar <br />- Mengembangkan dan mengimplementasikan sistem ERP <br />- Mengembangkan dan melakukan maintenance terhadap sistem yang digunakan Troubleshooting</p>',
+            'requirement' => '<p>- Pendidikan minimal S1 Sistem Informasi / Teknik Informatika <br />- Pengalaman minimal 2-3 tahun di bidang yang relevan, lebih disukai sebagai senior programmer atau software developer <br />- Menguasai Java Script, Laravel, Postgre SQL, Vue JS <br />- Lebih disukai memiliki pengalaman dalam mendokumentasikan dan mengembangkan Software System ERP <br />- Lebih disukai memahami program RDBMS <br />- Analitycal thinker dan memiliki kemampuan problem solving yang baik <br />- Komunikatif dan dapat bekerjasama dalam tim <br />- Terorganisir dan memiliki manajemen waktu yang baik <br />- Bersedia melakukan perjalanan dinas ke luar kota</p>',
+          'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Product Marketing Manager',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Mengembangkan produk furniture sesuai dengan analisis kebutuhan pelanggan dan riset trend pasar<br />- Menentukan strategi penetapan harga produk berdasarkan riset pasar, biaya produk, dan perkiraan permintaan produk<br />- Membuat dan mengeksekusi strategi pemasaran untuk meningkatkan penjualan produk furniture<br />- Berkomunikasi dengan pelanggan serta distributor untuk menciptakan solusi berkaitan dengan permasalahan-permasalahan produk</p>',
+            'requirement' => '<p>- Pendidikan Minimal S1, lebih disukai jurusan Marketing Management atau International Business Management <br />- Preferably 2 - 3 tahun pengalaman kerja dibidang marketing, freshgraduate dipersilakan melamar<br />- Memiliki kemampuan berpikir analitis dan strategis yang baik<br />- Memiliki jiwa kepemimpinan<br />- Mampu berkomunikasi dengan baik<br />- Mampu bekerja dalam team</p>',
+          'daerah_penempatan' => 'Lamongan'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Product Development Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Menguasai proses produksi secara menyeluruh <br />- Merencanakan dan mengawasi pembuatan sample dari awal hingga siap untuk diproduksi <br />- Melakukan pendataan material yang digunakan dalam pembuatan sample <br />- Menyusun dan merevisi pembuatan Buku Pedoman Produksi <br />- Mencari alternatif material / ornamen produk <br />- Menghitung Harga Pokok Produksi (HPP) <br />- Menganalisa tipe-tipe produk kompetitor </p>',
+            'requirement' => '<p>- Pendidikan minimal S1, lebih disukai dari jurusan Teknik Industri, Teknik Kimia, Akuntansi, Desain Produk <br />- Usia maksimal 28 tahun <br />- Pengalaman minimal 1 tahun dalam pengembangan produk (freshgraduate dipersilahkan melamar) <br />- Menguasai cara hitung Harga Pokok Produksi <br />- Komunikatif, teliti dan terorganisir <br />- Bertanggungjawab dan memiliki semangat belajar yang tinggi <br />- Dapat mengoperasikan microsoft office <br />- Memiliki SIM A / SIM C </p>',
+          'daerah_penempatan' => 'Gresik'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Digital Marketing',
+            'bentuk_pekerjaan' => 'Internship',
+            'job_desk' => '<p>- Berkolaborasi dengan Digital Marketing team untuk meningkatkan socil media engagement <br />- Bertanggung jawab mengeksekusi aktivitas social media secara langsung <br />- Menghasilkan social media dan website contents yang menarik dan mengikuti trends <br />- Menganalisa dan membuat content planning  untuk social media yang sesuai dengan target brand </p>',
+            'requirement' => '<p>- Mahasiswa semester akhir jurusan yang relevan (marketing, manajemen, ilmu komunikasi, DKV) <br />- Memiliki passion di dunia media sosial, influencer, hingga E-commerce <br />- Memiliki ketertarikan di digital marketing <br />- Memiliki kemampuan berkomunikasi yang baik <br />- Mampu bekerja dalam tim <br />- Menguasai software grafis menjadi nilai tambah </p>',
+          'daerah_penempatan' => 'Surabaya'
+        ]);
+
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'grahamultibintang',
+            'nama_lowongan' => 'Recruitment Internship',
+            'bentuk_pekerjaan' => 'Internship',
+            'job_desk' => '<p>- Mencari kandidat karyawan, menyotir, dan menyeleksi surat lamaran, dan melakukan psikotes untuk mendapatkan calon kandidat yang sesuai permintaan user, melalui database, media iklan online, media iklan cetak, dan jobfair. <br />- Menjadwalkan kandidat untuk mengikuti proses seleksi dengan menggunakan email, telepon, atau media pemberitahuan lainnya. <br />- Melakukan tugas administratif yang berhubungan dengan rekrutmen </p>',
+            'requirement' => '<p>- Mahasiswa semester akhir Jurusan Psikologi <br />- Memiliki ketertarikan dibidang recruitment <br />- Memiliki kemampuan berkomunikasi yang baik <br />- Dapat bekerja dalam tim <br />- Mampu mengadministrasikan alat tes psikologi menjadi nilai tambah </p>',
+          'daerah_penempatan' => 'Surabaya'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'tongtji',
+            'nama_lowongan' => 'HRD STAFF',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '<p>- Rekrutmen <br />- Training <br />- Administrasi (BPJS, database karyawan, surat menyurat, dll.) </p>',
+            'requirement' => '<p>- Pria/Wanita <br />- Fresh Graduate/Berpengalaman <br />- Paham mengenai BPJS, Administrasi Karyawan, Proses Rekrutmen dan Training <br />- Bersedia Dinas ke Luar Kota (jika dibutuhkan) <br />- Dapat bekerjasama dalam tim maupun individu <br />- Menguasai alat tes psikologi (industri) </p>',
+            'daerah_penempatan' => 'Surabaya'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'bcamultifinance',
+            'nama_lowongan' => 'Staf Marketing',
+            'bentuk_pekerjaan' => 'Part-time',
+            'job_desk' => '<p>- Memastikan target penjualan dan kualitas penjualan yang baik </p>',
+            'requirement' => '<p>- Diutamakan Fresh Graduate <br />- Usia maksimal 27 tahun <br />- Pendidikan minimal SMA <br />- Memiliki SIM C dan kendaraan bermotor <br />- Berpenampilan menarik <br />- Mampu bekerja dengan target <br />- Memiliki kemampuan komunikasi yang baik <br />- Memiliki kemampuan negosiasi yang baik </p>',
+            'daerah_penempatan' => 'Surabaya, Sidoarjo, Mojokerto, Malang'
+        ]);
+
+
+
+
+
+
+
+
+
+
+
     }
 }

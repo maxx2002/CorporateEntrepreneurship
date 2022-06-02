@@ -7,9 +7,13 @@
 <div class="d-flex justify-content-center mt-5">
     <div class="mb-3" style="max-width: 60%;">
         <div class="row g-3">
-          <div class="pt-3">
-            <img src="/{{$perusahaan->logo_path}}" class="img-fluid rounded-start" >
-          </div>
+            <div class="col-md-4 pt-3">
+              <img src="/{{$perusahaan->logo_path}}" class="img-fluid rounded-start" >
+            </div>
+            <div class="col-md-8 px-5">
+            <h2 class="card-title">Deskripsi Singkat</h2>
+            <p class="card-text">{!!$perusahaan->deskripsi_singkat!!}</p>
+            </div>
           
         </div>
     </div>
@@ -22,7 +26,7 @@
                 <h2 class="py-2">{{$item->nama_lowongan}}</h2>
                 <p class="pb-3">{{$item->perusahaan->nama_perusahaan}}</p>
                 <div class="row justify-content-center">
-                    <a href="#" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
+                    <a href="{{$item->perusahaan->link_gdocs}}" class="btn px-2 rounded col m-2 hoverableborder" style="background-color: #ffffff">Daftar</a>
                     <a href="#" id="setmodal-persyaratan-lowongan" class="btn px-2 rounded col m-2 hoverableborder" data-toggle="modal" data-target="#modal-persyaratan-lowongan" style="background-color: #ffffff"
                     data-namalowongan="<?=$item->nama_lowongan?>"
                     data-daerah="<?=$item->daerah_penempatan?>"

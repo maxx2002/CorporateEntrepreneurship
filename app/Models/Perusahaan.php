@@ -24,4 +24,7 @@ class Perusahaan extends Model
     public function lowongan(){
         return $this->hasMany(Lowongan::class, 'perusahaan_id', 'id_perusahaan');
     }
+    public function industri(){
+        return $this->hasMany(Industri::class, 'perusahaan_id', 'id_perusahaan');
+    }
 }
