@@ -29,7 +29,7 @@
   <a class="btn m-2 px-2 rounded active hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('all')"> Show all</a>
   <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Full-time')"> Full-time</a>
   <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Part-time')"> Part-time</a>
-  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Internship')"> Freelance</a>
+  <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Freelance')"> Freelance</a>
   <a class="btn m-2 px-2 rounded hoverableborder col" style="background-color: #FF6E00" onclick="filterSelection('Internship')"> Internship</a>
 </div>
 <div class="row mx-0 p-lg-5 mx-lg-5 p-5">

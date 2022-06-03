@@ -18,8 +18,8 @@ class LowonganSeeder extends Seeder
             'perusahaan_id' => 'CaravanStudio',
             'nama_lowongan' => 'Digital 2D Artist',
             'bentuk_pekerjaan' => 'Full-time',
-            'job_desk' => "<p>- producing high quality artwork for movie and game
-            <br>- follow the team's art direction and open to constructive feedback.<br>
+            'job_desk' => "<p>- Producing high quality artwork for movie and game
+            <br>- Follow the team's art direction and open to constructive feedback.<br>
             - Willing to consistently learn and apply the latest industry trends in artwork</p>",
             'requirement' => '<p>- Skilled in the fundamentals of illustration<br />- Good knowledge and skills in Adobe Photoshop<br />- 3d skills is a plus (blender, etc)<br />- Good communication skills<br />- Able to work with tight deadlines and pressures Comfortable with working in a team<br />- Willing to consistently learn and apply the latest industry trends in artwork</p>',
             'daerah_penempatan' => 'Jakarta Barat',
@@ -28,11 +28,8 @@ class LowonganSeeder extends Seeder
             'perusahaan_id' => 'CaravanStudio',
             'nama_lowongan' => 'Digital 3D artist',
             'bentuk_pekerjaan' => 'Full-time',
-            'job_desk' => "<p>- Producing high quality character modeling or environment concept artwork using 3D assets<br />- follow the team's art direction and open to constructive feedback.<br />- Willing to consistently learn and apply the latest industry trends in artwork</p>",
-            'requirement' => '- Skills & Knowledge
-            - Good communication skills
-            - Able to work with tight deadlines and pressures
-            - Comfortable with working in a team',
+            'job_desk' => "<p>- Producing high quality character modeling or environment concept artwork using 3D assets<br />- Follow the team's art direction and open to constructive feedback.<br />- Willing to consistently learn and apply the latest industry trends in artwork</p>",
+            'requirement' => '- Skills & Knowledge<br />- Good communication skills<br />- Able to work with tight deadlines and pressures<br />- Comfortable with working in a team',
             'daerah_penempatan' => 'Jakarta Barat',
         ]);
         DB::table('lowongan')->insert([
@@ -718,7 +715,7 @@ class LowonganSeeder extends Seeder
             'nama_lowongan' => 'Creative Supervisor',
             'bentuk_pekerjaan' => 'Full-time',
             'job_desk' => "Membuat storyboard / konsep iklan untuk ditayangkan di TV Nasional",
-            'requirement' => "<p>- Pria, usia 27 - 35 tahun<br />- D3/S1 Ilmu Komunikasi, Broadcasting, Televisi dan Film - Pengalaman minimal 3 tahun sebagai tim kreatif menjadi nilai plus<br />- Mampu membuat storyboard/konsep iklan serta memahami color grading<br />- Mampu mengoperasikan software editing (Adobe Premiere, Davinci, dll)<br />- Mampu mengoperasikan kamera<br />- Kreatif, Komunikatif &amp; Proaktif<br />- Portofolio hasil karya storyboard dan hasil video yang pernah dibuat (dibawa saat interview)</p>",
+            'requirement' => "<p>- Pria, usia 27 - 35 tahun<br />- D3/S1 Ilmu Komunikasi, Broadcasting, Televisi dan Film<br />- Pengalaman minimal 3 tahun sebagai tim kreatif menjadi nilai plus<br />- Mampu membuat storyboard/konsep iklan serta memahami color grading<br />- Mampu mengoperasikan software editing (Adobe Premiere, Davinci, dll)<br />- Mampu mengoperasikan kamera<br />- Kreatif, Komunikatif &amp; Proaktif<br />- Portofolio hasil karya storyboard dan hasil video yang pernah dibuat (dibawa saat interview)</p>",
             'daerah_penempatan' => 'Surabaya, Jawa Timur'
         ]);
         DB::table('lowongan')->insert([
@@ -894,7 +891,7 @@ class LowonganSeeder extends Seeder
             'nama_lowongan' => 'Application Support Engineer',
             'bentuk_pekerjaan' => 'Full-time',
             'job_desk' => '<p>- Provide technical support for enterprise-level application systems.<br />- Respond to general questions and trouble tickets promptly.<br />- Research, diagnose, troubleshoot, and identify potential solutions for how to resolve an issue.<br />- Document actionable bugs for engineering resolution.</p>',
-            'requirement' => '<p>- Bachelor&rsquo;s degree in computer engineering or computer science or related is preferred<br />- Having a minimum of 1 year of experience as IT Support/ Technical Support<br />- Good analytical, problem-solving skills and good attention to detail<br />- Proficient in programming language especially nodeJS and database concepts such as SQL Server and<br />MongoDB.</p>',
+            'requirement' => '<p>- Bachelor&rsquo;s degree in computer engineering or computer science or related is preferred<br />- Having a minimum of 1 year of experience as IT Support/ Technical Support<br />- Good analytical, problem-solving skills and good attention to detail<br />- Proficient in programming language especially nodeJS and database concepts such as SQL Server and MongoDB.</p>',
             'daerah_penempatan' => '-'
         ]);
         DB::table('lowongan')->insert([
@@ -950,7 +947,7 @@ class LowonganSeeder extends Seeder
             'nama_lowongan' => 'Associate Financial Consultant',
             'bentuk_pekerjaan' => 'Full-time',
             'job_desk' => '<p>- Mengikuti program pelatihan selama 12 bulan yang dilakukan secara online dan juga on-site di Surabaya<br />- Melakukan aktivitas penjualan produk<br />- Melakukan aktivitas perekrutan dan monitoring calon Financial Consultant</p>',
-            'requirement' =>'<p>- Pendidikan terakhir min. D3/S1<br />- Usia 25-40 tahun<br />- Memiliki pengalaman bekerja min. 3 tahun  dengan penghasilan min. Rp 5.000.000,- <br />-Diutamakan yang pernah berwirausaha, bekerja di sektor marketing, perbankan dan Human Resources </p>',
+            'requirement' =>'<p>- Pendidikan terakhir min. D3/S1<br />- Usia 25-40 tahun<br />- Memiliki pengalaman bekerja min. 3 tahun  dengan penghasilan min. Rp 5.000.000,- <br />- Diutamakan yang pernah berwirausaha, bekerja di sektor marketing, perbankan dan Human Resources </p>',
             'daerah_penempatan' => 'Jakarta, Medan, Bandung, Bali, Surabaya, Batam'
         ]);
 
@@ -959,7 +956,7 @@ class LowonganSeeder extends Seeder
             'nama_lowongan' => 'Financial Consultant',
             'bentuk_pekerjaan' => 'Part-time',
             'job_desk' => '<p>- Melakukan aktivitas penjualan produk<br />- Melakukan aktivitas perekrutan dan monitoring calon <br />- Mengikuti pelatihan</p>',
-            'requirement' =>'<p>- Pendidikan terakhir min. SMA atau sederajat<br />-Maks. Usia 55 tahun</p>',
+            'requirement' =>'<p>- Pendidikan terakhir min. SMA atau sederajat<br />- Maks. Usia 55 tahun</p>',
             'daerah_penempatan' => 'Dapat bekerja secara mobile'
         ]);
 
@@ -1137,8 +1134,8 @@ class LowonganSeeder extends Seeder
             'perusahaan_id' => 'xaviermarks',
             'nama_lowongan' => 'eXpert Advisor',
             'bentuk_pekerjaan' => 'Full-time',
-            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />-Rekrut Agen untuk membentuk sebuah tim.<br />-FLEXIBLE TIME!</p>',
-            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />-High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
+            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />- Rekrut Agen untuk membentuk sebuah tim.<br />- FLEXIBLE TIME!</p>',
+            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />- High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
             'daerah_penempatan' => 'Surabaya, Jakarta, Tangerang, Sidoarjo, Malang, Jember, Bandung, Bekasi, Kalimantan Barat, Semarang, Solo, Denpasar, Banyuwangi, dsb'
         ]);
 
@@ -1146,8 +1143,8 @@ class LowonganSeeder extends Seeder
             'perusahaan_id' => 'xaviermarks',
             'nama_lowongan' => 'eXpert Advisor',
             'bentuk_pekerjaan' => 'Part-time',
-            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />-Rekrut Agen untuk membentuk sebuah tim.<br />-FLEXIBLE TIME!</p>',
-            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />-High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
+            'job_desk' => '<p>- Mempertemukan pemilik property yang akan dijual atau disewakan dengan klien.<br />- Mencari barang untuk bisa dijual atau disewakan di area yang di pilih oleh agen tersebut.<br />- Rekrut Agen untuk membentuk sebuah tim.<br />- FLEXIBLE TIME!</p>',
+            'requirement' => '<p>- Mempunyai KTP<br />- Good Time Management<br />- Good Leadership Skill<br />- High Motivation and Spirit<br />- Mempunyai pengetahuan mengenai Digital Marketing dan Social Media<br />- Dapat berkerja Bersama tim. <br />- Niat yang tinggi untuk belajar.</p>',
             'daerah_penempatan' => 'Surabaya, Jakarta, Tangerang, Sidoarjo, Malang, Jember, Bandung, Bekasi, Kalimantan Barat, Semarang, Solo, Denpasar, Banyuwangi, dsb'
         ]);
 
@@ -1307,6 +1304,14 @@ class LowonganSeeder extends Seeder
             'job_desk' => '<p>- Memastikan target penjualan dan kualitas penjualan yang baik </p>',
             'requirement' => '<p>- Diutamakan Fresh Graduate <br />- Usia maksimal 27 tahun <br />- Pendidikan minimal SMA <br />- Memiliki SIM C dan kendaraan bermotor <br />- Berpenampilan menarik <br />- Mampu bekerja dengan target <br />- Memiliki kemampuan komunikasi yang baik <br />- Memiliki kemampuan negosiasi yang baik </p>',
             'daerah_penempatan' => 'Surabaya, Sidoarjo, Mojokerto, Malang'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'prudential',
+            'nama_lowongan' => 'Beasiswa Karyawan',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => 'Tentative',
+            'requirement' => 'Telah bekerja selama min. 2 tahun',
+            'daerah_penempatan' => 'Seluruh Indonesia'
         ]);
 
 

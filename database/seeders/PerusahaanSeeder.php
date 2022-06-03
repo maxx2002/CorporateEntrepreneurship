@@ -172,7 +172,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'c+c&co',
-            'logo_path' => '',
+            'logo_path' => 'img/perusahaan/c+c&co.png',
             'nama_perusahaan' => 'C+C&CO',
             'deskripsi_singkat' => 'C+C&Co adalah agensi kreatif yang berbasis di Singapura dalam komunikasi dan pemasaran multi-disiplin, pengarahan seni, pengembangan merek & Intelijen desain. Toko komunikasi kreatif satu atap yang mengkhususkan diri dalam kebutuhan komunikasi. Mulai dari art direction, identitas, iklan, kolateral, desain kemasan hingga branding lingkungan. Kami menyesuaikan setiap proyek dengan kebutuhan klien dengan tetap unik dalam metodologi mereka sendiri. Proses desain yang menyeluruh didukung dengan pemahaman, pengamatan, konseptualisasi, penciptaan dan integrasi akhirnya secara efisien. Nilai-nilai kami berpikiran terbuka, efisien, beragam, kolaboratif, progresif. Kami telah berdiri sejak 2012 dan kami percaya dalam menciptakan karya yang menyisipkan disiplin dan bergerak melampaui indera. Sudah menjadi budaya kita untuk mengkolaborasikan berbagai disiplin ilmu untuk mendefinisikan kembali situasi di luar batas normal',
             'visi_misi' => '',
@@ -220,7 +220,7 @@ class PerusahaanSeeder extends Seeder
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'xaviermarks',
-            'logo_path' => '',
+            'logo_path' => 'img/perusahaan/xaviermarks.jpg',
             'nama_perusahaan' => 'Xavier Marks',
             'deskripsi_singkat' => 'Menjadi penolong terbaik bagi para klien/customer (pelanggan) dalam memenuhi kebutuhan properti mereka untuk untuk dapat menemukan "rumah yang baru" sesuai dengan impian mereka.',
             'visi_misi' => '',

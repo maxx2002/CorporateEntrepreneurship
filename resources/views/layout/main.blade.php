@@ -14,7 +14,7 @@
 </head>
 <body style="background-image: url({{ asset('img/bg.svg') }}); background-size: cover">
     <div style="z-index: -1">
-        <img src="{{ asset('img/hiasan/ataskiri.svg') }}" alt="" class="ataskiri">
+        <img src="{{ asset('img/hiasan/ataskiri.svg') }}" alt="" class="ataskiri" style="z-index: -1000">
         <img src="{{ asset('img/hiasan/snow.svg') }}" alt="" class="snow">
     </div>
 
