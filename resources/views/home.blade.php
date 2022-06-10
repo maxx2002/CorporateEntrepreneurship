@@ -45,7 +45,7 @@
       <div class="col">
         <div>
             <h2>Waktu</h2>
-            <p>24-25 Mei 2022</p>
+            <p>3-4 Juni 2022</p>
         </div>
       </div>
       <div class="col">

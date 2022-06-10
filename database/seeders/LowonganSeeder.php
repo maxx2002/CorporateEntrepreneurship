@@ -1313,6 +1313,54 @@ class LowonganSeeder extends Seeder
             'requirement' => 'Telah bekerja selama min. 2 tahun',
             'daerah_penempatan' => 'Seluruh Indonesia'
         ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'spscorporate',
+            'nama_lowongan' => 'Production Management Trainee',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '',
+            'requirement' => '<p>- Fresh Graduateminimum GPA 3.25<br />- Max 24 years old<br />- Bachelor in Engineering ( Chemical, Industrial, Electrical, Mechanical, ETC )<br />- Willing to be place in all area</p>',
+            'daerah_penempatan' => 'All Area'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'spscorporate',
+            'nama_lowongan' => 'Accounting Management Trainee',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '',
+            'requirement' => '<p>- Fresh graduate with minimum GPA 3.25<br />- Bachelor in Accounting<br />- Willing to be placed in all area</p>',
+            'daerah_penempatan' => 'All Area'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'spscorporate',
+            'nama_lowongan' => 'Commercial Management Trainee',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '',
+            'requirement' => '<p>- Fresh graduate with minimum GPA 3.25<br />- Bachelor in management or IBM <br />- Willing to be placed in all area</p>',
+            'daerah_penempatan' => 'All Area'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'spscorporate',
+            'nama_lowongan' => 'PPIC Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '',
+            'requirement' => '<p>- Bachelor degree in industrial / chemical engineering with GPA min 3.00<br />- Detail and data oriented<br />- Have a good planning and analytical skill <br />- Able to work in team/individual</p>',
+            'daerah_penempatan' => 'Ngoro, Mojokerto'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'spscorporate',
+            'nama_lowongan' => 'Recruitment and Training Staff',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '',
+            'requirement' => '<p>- Bachelor degree in psychology with minimun GPA 3.2<br />- Having a good communication and interpersonal skills <br />- Able to work in fast moving and demanding environment<br />- Ready to work with tight plans and targets</p>',
+            'daerah_penempatan' => 'Ngoro, Mojokerto'
+        ]);
+        DB::table('lowongan')->insert([
+            'perusahaan_id' => 'spscorporate',
+            'nama_lowongan' => 'International Marketing Assistant',
+            'bentuk_pekerjaan' => 'Full-time',
+            'job_desk' => '',
+            'requirement' => '<p>- Bachelor degree in industrial engineering , IBM, or Marketing Management with minimum GPA 3.2<br />- Fresh graduate are welcome to apply<br />- Fluent in english is a must<br />- Additional foreign language will be a plus (ex: Mandarin minimum HSK 5 / Japanesse minimun N2)<br />- Good communication skill both in speaking and writing <br />- Good at calculating numbers<br />- Already have international experience beforehand (any travel/study/training abroad is enough) will be a plus</p>',
+            'daerah_penempatan' => ''
+        ]);
 
 
 

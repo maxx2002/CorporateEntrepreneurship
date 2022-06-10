@@ -43,7 +43,7 @@ class PerusahaanSeeder extends Seeder
             'deskripsi_singkat' => 'PT Isuzu Astra Motor Indonesia (IAMI), perusahaan ventura bersama antara PT Astra International Tbk dan Isuzu Motors Limited, dan merupakan agen pemegang merek Isuzu serta produsen kendaraan, komponen, aksesoris, dan suku cadang merek Isuzu di Indonesia. Distribusi kendaraan Isuzu kategori commercial vehicle (CV) ditangani oleh IAMI, sedangkan untuk distribusi kendaraan Isuzu kategori light commercial vehicle (LCV) didukung oleh PT Astra International Tbk - Isuzu Sales Operation (ISO) salah satu divisi operasional Astra.',
             'visi_misi' => '',
             'website_resmi' => '',
-            'link_gdocs' => '',
+            'link_gdocs' => 'https://docs.google.com/forms/d/e/1FAIpQLSc4cG1Hx5kIlYKCb5jgjsLvXhmucPViADjAJWxhycpSiIAyfg/viewform',
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'WarnaWarniMedia',
@@ -109,7 +109,7 @@ class PerusahaanSeeder extends Seeder
             'deskripsi_singkat' => 'Wings menjadi salah satu nama yang terpercaya di Indonesia. Keluarga Indonesia beralih ke berbagai produk rumah tangga, perawatan pribadi, makanan & minuman, dan berharap Wings menyediakan produk berkualitas tanpa kompromi. Merek kami telah diturunkan dari generasi ke generasi. Dengan teknologi manufaktur yang canggih, fasilitas kelas dunia dan jaminan kualitas yang ketat, produk Wings memenuhi standar industri tertinggi. Dengan tetap inovatif dan menghadirkan produk-produk berkualitas tinggi selama lebih dari 70 tahun, Wings menghormati komitmennya untuk meningkatkan kehidupan sehari-hari konsumen Indonesia dan menunjukkan sejauh mana perusahaan menghargai pelanggannya. Inovasi dan mengikuti perubahan selera konsumen telah memungkinkan Wings untuk tetap berada di garis depan pasar barang konsumen. Perusahaan telah memperluas jangkauan portofolio produknya melalui joint venture dengan Lion Japan, Glico Japan dan Calbee Japan. Lion Wings memproduksi berbagai produk dengan berbagai merek seperti Ciptadent, Kodomo, Systema, Emeron, Serasoft, Zinc, Mama Lemon dan Posh. Glico Wings memproduksi berbagai es krim dengan merek Haku, Waku Waku, Frost Bite dan J-Cone, sedangkan Calbee Wings memproduksi berbagai makanan ringan dengan merek Potabee, Krisbee dan Japota.',
             'visi_misi' => '',
             'website_resmi' => '',
-            'link_gdocs' => 'https://docs.google.com/forms/d/e/1FAIpQLSdHqc91H8h4exC0FBBpxsVhByKSWLkzb_rfjJZnDXU5Bx5woQ/viewform',
+            'link_gdocs' => 'https://docs.google.com/forms/d/e/1FAIpQLScebRLfQ6gsnG7YkYoKi3YSR5fF09kWmuaXbM5GUu4pfszAnA/viewform',
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'marketingofficeciputra',
@@ -140,7 +140,7 @@ class PerusahaanSeeder extends Seeder
             ',
             'visi_misi' => '',
             'website_resmi' => '',
-            'link_gdocs' => '',
+            'link_gdocs' => 'https://docs.google.com/forms/d/e/1FAIpQLSfX5T-bg3V8c1qCmKMdiNE38y6ee4ijza4NCnH-Q55w4ESpfg/viewform',
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'siantartop',
@@ -158,7 +158,7 @@ class PerusahaanSeeder extends Seeder
             'deskripsi_singkat' => 'PT. Vitapharm merupakan perusahaan cosmetic besar dan terkemuka di Indonesia sejak tahun 1962 yang memproduksi produk kecantikan',
             'visi_misi' => '',
             'website_resmi' => '',
-            'link_gdocs' => '',
+            'link_gdocs' => 'https://docs.google.com/forms/d/e/1FAIpQLScKHrLcJEiVAyASCCiC8eHLmIm1XWkwQFu5yzscTgHIlv0UPQ/viewform',
         ]);
         DB::table('perusahaan')->insert([
             'id_perusahaan' => 'ucsurabaya',
@@ -265,6 +265,15 @@ class PerusahaanSeeder extends Seeder
             'visi_misi' => '',
             'website_resmi' => '',
             'link_gdocs' => 'https://docs.google.com/forms/d/e/1FAIpQLScS4CTroM_sDCBM25r6od1OSGXeQ0t7tADLjOCxJBqujiguXA/viewform',
+        ]);
+        DB::table('perusahaan')->insert([
+            'id_perusahaan' => 'spscorporate',
+            'logo_path' => 'img/perusahaan/spscorporate.jpg',
+            'nama_perusahaan' => 'SPS Corporate',
+            'deskripsi_singkat' => 'PT SOPANUSA mulai beroperasi pada Mei 1995. Lokasi perusahaan kami di kota Mojokerto, sekitar 55 km dari ibu kota Jawa Timur Surabaya. Kami memproduksi semua jenis kertas tisu berkualitas seperti Tisu Wajah, Tisu Kamar Mandi, Kertas Serbet, Handuk Dapur dan Handuk Tangan, dari 11 hingga 50 gsm, kertas satu hingga tiga lapis. Saat ini, kami telah mengekspor lebih dari 80% kapasitas produksi kami, melayani pelanggan di 70 negara di 5 benua. Perusahaan kami tentunya telah tumbuh dengan mantap dan akan terus berkembang dengan cepat merespon pasar yang dinamis.PT SOPANUSA mulai beroperasi pada Mei 1995. Lokasi perusahaan kami di kota Mojokerto, sekitar 55 km dari ibu kota Jawa Timur Surabaya. Kami memproduksi semua jenis kertas tisu berkualitas seperti Tisu Wajah, Tisu Kamar Mandi, Kertas Serbet, Handuk Dapur dan Handuk Tangan, dari 11 hingga 50 gsm, kertas satu hingga tiga lapis. Saat ini, kami telah mengekspor lebih dari 80% kapasitas produksi kami, melayani pelanggan di 70 negara di 5 benua. Perusahaan kami tentunya telah tumbuh dengan mantap dan akan terus berkembang dengan cepat merespon pasar yang dinamis.',
+            'visi_misi' => '',
+            'website_resmi' => '',
+            'link_gdocs' => 'https://docs.google.com/forms/d/e/1FAIpQLSdWLGUlBRT_FQGMbNJvrPdV6bDMGUQZaDM8ZnftDKBC8kdV2g/viewform',
         ]);
     }
 }
